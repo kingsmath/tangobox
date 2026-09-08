@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f2ece0">
+<title>Tango Box</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f2ece0; --card:#fbf7ee; --card2:#f6f0e3;
+    --line:#ddd0b8; --line2:#eae0cd;
+    --ink:#2a2119; --ink2:#4a3d31; --muted:#7d6d59; --faint:#a6957e;
+    --wine:#8a2932; --gold:#a8853c; --sage:#41645a;
+    --tango:#8a2932; --vals:#41645a; --milonga:#8a6420;
+
+    --body:"Nanum Gothic","Malgun Gothic","Apple SD Gothic Neo",
+           -apple-system,"Segoe UI",Roboto,sans-serif;
+    --display:"Cormorant Garamond",Georgia,serif;   /* 로고 숫자에만 */
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
+            font-family:var(--body);font-size:15px;line-height:1.65;
+            -webkit-text-size-adjust:100%;
+            -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+  h1,h2,h3{margin:0;font-weight:700}
+  button,input,select,textarea{font-family:var(--body);font-size:14px;color:inherit}
+  button{cursor:pointer}
+  a{color:var(--wine);text-underline-offset:2px}
+  ::selection{background:#e6d3b8}
+
+  /* ---------------- 머리말 ---------------- */
+  header{
+    position:sticky;top:0;z-index:40;background:var(--paper);
+    border-bottom:1px solid var(--line);
+    box-shadow:0 1px 0 var(--card2);
+  }
+  .hrow{max-width:1240px;margin:0 auto;padding:0 22px;height:60px;
+        display:flex;align-items:center;gap:18px}
+  .brand{display:flex;align-items:baseline;gap:9px;min-width:0}
+  .brand h1{font-size:16px;font-weight:800;letter-spacing:.06em;white-space:nowrap}
+  nav{display:flex;gap:22px;margin-left:auto}
+  nav button{background:none;border:0;padding:20px 0;color:var(--muted);
+             font-size:14.5px;font-weight:700;letter-spacing:.02em;border-bottom:2px solid transparent}
+  nav button:hover{color:var(--ink)}
+  nav button.active{color:var(--wine);border-bottom-color:var(--wine)}
+
+  main{max-width:1240px;margin:0 auto;padding:26px 22px 60px}
+  main > section{display:none}
+  main > section.active{display:block}
+
+  .warn{background:#f7ead2;border:1px solid var(--gold);border-radius:3px;
+        padding:14px 17px;margin-bottom:22px;font-size:14px;line-height:1.85}
+  .warn b{color:#7a5c15}
+  .warn code{background:#efdfc0;padding:1px 5px;border-radius:2px;font-size:13px}
+
+  /* ---------------- 공통 부품 ---------------- */
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:3px}
+  .toolbar{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-bottom:20px}
+  select,input[type=text]{
+    border:1px solid var(--line);background:var(--card);color:var(--ink);
+    border-radius:3px;padding:8px 11px;min-height:38px;
+  }
+  select:focus,input:focus{outline:none;border-color:var(--gold)}
+  input::placeholder{color:var(--faint)}
+  #mode-select{max-width:400px}
+  .btn{border:1px solid var(--line);background:var(--card);color:var(--ink);
+       border-radius:3px;padding:8px 16px;min-height:38px;letter-spacing:.04em}
+  .btn:hover{border-color:var(--gold);background:var(--card2)}
+  .btn.primary{background:var(--wine);color:#fdf8ee;border-color:var(--wine)}
+  .btn.primary:hover{background:#73212a;border-color:#73212a}
+  .btn.sm{padding:4px 10px;min-height:30px;font-size:13px}
+  .btn.icon{padding:4px 9px;min-height:30px;font-size:13px;color:var(--muted)}
+  .btn.icon:hover{color:var(--wine);border-color:var(--gold)}
+  .note{color:var(--muted);font-size:13.5px}
+  .lbl{font-size:11.5px;letter-spacing:.12em;color:var(--faint);font-weight:700}
+  .spacer{flex:1}
+  .empty{color:var(--muted);padding:40px;text-align:center}
+
+  /* ---------------- 플레이 ---------------- */
+  .split{display:grid;grid-template-columns:minmax(0,1fr) 428px;gap:28px;align-items:start}
+  /* 설정 화면일 때: DOM에서 없애지 않고(재생 유지) 화면에서만 완전히 숨긴다.
+     흔히 쓰는 '보이지 않게 숨기기(visually-hidden)' 기법 — display:none 이 아니므로
+     안에 있는 유튜브 iframe 은 계속 재생된다. */
+  .split.offscreen{
+    position:fixed !important;left:0;top:0;
+    width:1px !important;height:1px !important;margin:-1px !important;padding:0 !important;
+    overflow:hidden !important;clip:rect(0,0,0,0) !important;white-space:nowrap;border:0;
+    pointer-events:none;
+  }
+
+  .plist{background:var(--card);border:1px solid var(--line);border-radius:3px;overflow:hidden}
+  .tanda{display:flex;gap:13px;padding:14px 17px;border-bottom:1px solid var(--line2)}
+  .tanda:last-child{border-bottom:0}
+  .tanda.playing{background:var(--card2);box-shadow:inset 3px 0 0 var(--wine)}
+  .tanda .no{color:var(--faint);font-size:14px;font-weight:700;
+             font-variant-numeric:tabular-nums;width:22px;flex:none;padding-top:2px}
+  .tanda .body{flex:1;min-width:0}
+  .tanda .l1{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+  .tanda .orch{font-weight:700;font-size:16px;letter-spacing:.01em}
+  .g{font-size:11.5px;font-weight:700;letter-spacing:.13em}
+  .g.tango{color:var(--tango)} .g.vals{color:var(--vals)} .g.milonga{color:var(--milonga)}
+  .tanda .songs{color:var(--muted);font-size:13.5px;margin-top:4px;line-height:1.7}
+  .tanda .songs .cur{color:var(--wine);font-weight:700}
+  .tanda .acts{display:flex;gap:5px;align-items:flex-start;flex:none;opacity:.32;transition:opacity .15s}
+  .tanda:hover .acts,.tanda.playing .acts{opacity:1}
+  .tanda .swap{font-size:13px;padding:4px 7px;min-height:30px;max-width:132px}
+  .cort{display:flex;align-items:center;gap:9px;padding:8px 17px;background:var(--card2);
+        border-bottom:1px solid var(--line2);color:var(--muted);font-size:13px}
+  .cort .lbl{font-size:11px;letter-spacing:.18em}
+  .cort.playing{color:var(--wine);box-shadow:inset 3px 0 0 var(--wine)}
+  .addrow{display:flex;gap:9px;padding:13px 17px;align-items:center;background:var(--card2);flex-wrap:wrap}
+
+  /* 오른쪽 (영상 + 해설) */
+  .side{display:flex;flex-direction:column;gap:16px;position:sticky;top:86px;align-self:start}
+  .video{aspect-ratio:16/9;background:#120f0c;border:1px solid var(--line);border-radius:3px;overflow:hidden}
+  .video iframe{width:100%;height:100%;border:0;display:block}
+  .now{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:15px 17px}
+  .now .t{font-weight:700;font-size:16px;line-height:1.45}
+  .now .s{color:var(--muted);font-size:13px;margin-top:3px;font-variant-numeric:tabular-nums}
+  .pbar{height:2px;background:var(--line2);margin:13px 0;overflow:hidden}
+  .pbar > div{height:100%;background:var(--wine);width:0}
+  .ctrl{display:flex;gap:7px}
+  .ctrl button{flex:1;height:42px;border:1px solid var(--line);background:var(--card);
+               border-radius:3px;font-size:15px;color:var(--ink2)}
+  .ctrl button:hover{border-color:var(--gold);color:var(--wine)}
+  .ctrl button.main{background:var(--wine);color:#fdf8ee;border-color:var(--wine)}
+
+  .info{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:3px 17px}
+  .info .blk{padding:15px 0;border-bottom:1px solid var(--line2)}
+  .info .blk:last-child{border-bottom:0}
+  .info .who{display:flex;gap:11px;align-items:center;margin-top:7px}
+  .info .who img{width:46px;height:46px;border-radius:50%;object-fit:cover;object-position:center top;
+                 border:1px solid var(--line);flex:none}
+  .info .name{font-weight:700;font-size:16px;margin-top:7px}
+  .info .who .name{margin-top:0}
+  .info .tagline{color:var(--wine);font-size:12.5px;margin-top:3px}
+  .info p{margin:9px 0 0;font-size:14px;color:var(--ink2);line-height:1.9}
+  .info .meta{margin-top:9px;font-size:13px;color:var(--muted)}
+  .info .none{font-size:14px;color:var(--muted);line-height:1.9}
+
+  /* ---------------- 곡목록 ---------------- */
+  .item{background:var(--card);border:1px solid var(--line);border-radius:3px;margin-bottom:9px;overflow:hidden}
+  .item .head{display:flex;align-items:center;gap:11px;padding:14px 17px;cursor:pointer;flex-wrap:wrap}
+  .item .head:hover{background:var(--card2)}
+  .item .head b{font-size:16px}
+  .item .head .cnt{color:var(--faint);font-size:13px;margin-left:auto}
+  .item .bd{display:none;padding:3px 17px 17px;border-top:1px solid var(--line2)}
+  .item.open .bd{display:block}
+  .gsec{margin:18px 0 0}
+  .gsec:first-of-type{margin-top:12px}
+  .gsec .ghead{display:flex;align-items:center;gap:9px;padding:0 0 7px;
+               border-bottom:1px solid var(--line);margin-bottom:2px}
+  .gsec .ghead .cnt{color:var(--faint);font-size:12.5px}
+  .song{padding:12px 0;border-bottom:1px solid var(--line2)}
+  .song:last-child{border-bottom:0}
+  .song .r1{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .song .t{flex:1;min-width:130px;font-size:15px}
+  .song .desc{font-size:14px;color:var(--ink2);line-height:1.9;margin:7px 0 0 16px}
+  .song .nodesc{font-size:13px;color:var(--muted);margin:7px 0 0 16px}
+  /* 악단 사진 */
+  .avatar{width:34px;height:34px;border-radius:50%;object-fit:cover;object-position:center top;
+          border:1px solid var(--line);background:var(--card2);flex:none}
+  .profile{background:var(--card2);border-left:2px solid var(--gold);padding:14px 16px;margin:14px 0 4px;
+           display:flex;gap:16px;align-items:flex-start}
+  .profile .ptxt{flex:1;min-width:0}
+  .profile figure{margin:0;flex:none;width:150px}
+  .profile figure img{width:150px;border-radius:3px;border:1px solid var(--line);display:block;background:#fff}
+  .profile figcaption{font-size:11px;color:var(--faint);line-height:1.5;margin-top:5px;word-break:break-word}
+  .profile figcaption a{color:var(--faint)}
+  @media(max-width:640px){
+    .profile{flex-direction:column;gap:12px}
+    .profile figure,.profile figure img{width:100%;max-width:220px}
+  }
+  .profile b{font-size:16px}
+  .profile .tagline{color:var(--wine);font-size:12.5px}
+  .profile p{margin:8px 0 0;font-size:14px;line-height:1.9;color:var(--ink2)}
+  .profile .meta{margin-top:9px;font-size:13px;color:var(--muted)}
+
+  /* ---------------- 설정 ---------------- */
+  .block{background:var(--card);border:1px solid var(--line);border-radius:3px;
+         padding:20px 22px;margin-bottom:16px;max-width:780px}
+  .block h2{font-size:17px;font-weight:800;margin-bottom:8px}
+  .rows > div{display:flex;align-items:center;gap:11px;padding:9px 0;border-top:1px solid var(--line2);flex-wrap:wrap}
+  .rows .ttl{flex:1;min-width:150px}
+
+  #site-footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line2);
+               text-align:center;font-size:11.5px;color:var(--faint)}
+  #site-footer a{color:var(--faint)}
+
+  #toasts{position:fixed;left:22px;bottom:22px;display:flex;flex-direction:column;gap:7px;z-index:60}
+  .toast{background:var(--ink);color:#f6efe1;font-size:13.5px;padding:10px 15px;
+         border-radius:3px;max-width:340px;box-shadow:0 6px 18px rgba(42,33,25,.22)}
+
+  /* ---------------- 모바일 ---------------- */
+  @media(max-width:1040px){
+    /* 좌우 분할을 세로로 펴고, 영상은 맨 위에 붙여 둔다 */
+    .split{display:flex;flex-direction:column}
+    .side{display:contents}
+    .split > div:first-child{order:0}
+    #playerbox{
+      order:-1;position:sticky;top:60px;z-index:20;background:var(--paper);
+      padding:10px 0 12px;margin:-6px 0 16px;border-bottom:1px solid var(--line);
+      width:100%;box-sizing:border-box;
+    }
+    /* display:contents 로 넘어온 요소는 일부 모바일 브라우저에서 stretch 가 안 먹어
+       왼쪽으로 쏠려 보일 수 있어, 너비를 직접 못박아 가운데 정렬을 보장한다 */
+    #playerbox .video{width:min(100%,392px);max-width:100%;height:auto;aspect-ratio:16/9;
+                       margin-left:auto;margin-right:auto}
+    #playerbox .now{border:0;background:none;padding:10px 2px 0}
+    #playerbox .pbar{margin:10px 0}
+    #infobox{order:1;margin-top:18px;width:100%;box-sizing:border-box}
+  }
+  @media(max-width:640px){
+    html,body{font-size:16px}
+    .hrow{padding:0 15px;height:54px;gap:10px}
+    .brand h1{font-size:14.5px;letter-spacing:.06em}
+    nav{gap:14px}
+    nav button{font-size:14px;padding:17px 0;letter-spacing:.02em}
+    main{padding:16px 15px 48px}
+
+    /* 가로로 넘치지 않게 */
+    .toolbar{gap:7px}
+    .toolbar select,.toolbar input[type=text],.toolbar .btn,.toolbar label.btn{
+      min-width:0;max-width:100%;flex:1 1 46%;
+    }
+    #mode-select{flex:1 1 100%;width:100%;max-width:100%}
+    #generate-btn{flex:1 1 100%}
+    #filter-search{flex:1 1 100%;max-width:100%}
+    .toolbar .note{flex:1 1 100%}
+
+    .tanda{flex-wrap:wrap;padding:14px}
+    .tanda .body{flex:1 1 100%;min-width:0}
+    .tanda .acts{width:100%;opacity:1;gap:6px;margin-top:12px;flex-wrap:wrap}
+    .tanda .acts .swap{flex:1 1 100%;width:100%;max-width:100%;min-height:38px}
+    .tanda .acts .btn.icon{flex:1 1 0;min-width:0;min-height:38px;font-size:14px}
+    .cort{padding:9px 14px;flex-wrap:wrap}
+    .addrow{padding:13px 14px}
+    .addrow select,.addrow .btn{flex:1 1 40%;min-width:0}
+
+    #playerbox{top:54px}
+    .ctrl button{height:48px;font-size:17px}
+
+    .item .head{padding:13px 14px}
+    .item .head .cnt{margin-left:0;flex:1 1 100%}
+    .item .bd{padding:3px 14px 14px}
+    .song .r1{gap:7px}
+    .song .t{flex:1 1 100%}
+    .song .desc,.song .nodesc{margin-left:0}
+
+    .block{padding:16px 15px}
+    .rows > div{gap:8px}
+    .rows .ttl{flex:1 1 100%;min-width:0}
+    #toasts{left:12px;right:12px;bottom:12px}
+    .toast{max-width:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hrow">
+    <div class="brand">
+      <h1>쎄븐 탱고 플레이어</h1>
+    </div>
+    <nav>
+      <button data-tab="dj" class="active">플레이</button>
+      <button data-tab="library">곡목록</button>
+      <button data-tab="settings">설정</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="warn" id="filewarn" hidden>
+    <b>이렇게 열면 영상이 재생되지 않습니다.</b><br>
+    유튜브는 파일을 직접 연 페이지(<code>file://</code>)에서 영상 재생을 막습니다(오류 153).
+    이 창을 닫고 같은 폴더의 <b>«탱고DJ 실행.bat»</b> 을 더블클릭해서 열어주세요.
+  </div>
+
+  <div class="split" id="workspace">
+    <div class="wleft">
+      <!-- ===== 플레이 ===== -->
+      <div id="pane-dj">
+        <div class="toolbar">
+          <select id="mode-select">
+            <option value="basic">기본 편성 (로맨틱4 리드미컬4 발스3 화려4 조용4 밀롱가3)</option>
+            <option value="random">랜덤 편성 (분위기 랜덤 · 탱4탱4발3 탱4탱4밀3)</option>
+            <option value="practice">연습 (탱탱탱발 탱탱탱밀 · 2곡씩)</option>
+          </select>
+          <select id="sets-input">
+            <option value="1">1세트</option><option value="2">2세트</option>
+            <option value="3" selected>3세트</option><option value="4">4세트</option><option value="5">5세트</option>
+          </select>
+          <select id="cortina-seconds-input">
+            <option value="0">코르티나 없음</option>
+            <option value="20">코르티나 20초</option>
+            <option value="30" selected>코르티나 30초</option>
+            <option value="45">코르티나 45초</option>
+          </select>
+          <button class="btn primary" id="generate-btn">프로그램 만들기</button>
+          <span class="spacer"></span>
+          <span class="note" id="program-summary"></span>
+        </div>
+        <div class="plist" id="program-list"></div>
+        <div class="empty" id="no-program-msg">프로그램을 만들면 오늘의 밀롱가 순서가 여기에 나옵니다.</div>
+      </div>
+
+      <!-- ===== 곡목록 ===== -->
+      <div id="pane-library" hidden>
+        <div class="toolbar">
+          <select id="filter-genre">
+            <option value="all">전체 장르</option>
+            <option value="tango">탱고</option>
+            <option value="vals">발스</option>
+            <option value="milonga">밀롱가</option>
+          </select>
+          <input type="text" id="filter-search" placeholder="악단 · 곡명 검색" style="flex:1;max-width:340px">
+          <span class="note" id="lib-count"></span>
+        </div>
+        <div id="lib-list"></div>
+      </div>
+    </div>
+
+    <aside class="side">
+      <div id="playerbox">
+        <div class="video"><div id="yt-player"></div></div>
+        <div class="now">
+          <div class="t" id="now-title">재생 대기 중</div>
+          <div class="s" id="now-sub">프로그램을 만들고 ▶ 를 눌러주세요</div>
+          <div class="pbar"><div id="progress"></div></div>
+          <div class="ctrl">
+            <button id="btn-prev" title="이전 곡">⏮</button>
+            <button id="btn-toggle" class="main" title="재생 / 일시정지">▶</button>
+            <button id="btn-next" title="다음 곡">⏭</button>
+            <button id="btn-stop" title="정지">⏹</button>
+          </div>
+        </div>
+      </div>
+      <div class="info" id="infobox"></div>
+    </aside>
+  </div>
+
+  <!-- ================= 설정 ================= -->
+  <section id="view-settings">
+    <div class="block">
+      <h2>코르티나</h2>
+      <p class="note">딴따와 딴따 사이에 짧게 트는 곡입니다. 등록된 곡 중에서 무작위로 골라 나오고,
+        마지막 5초는 볼륨이 서서히 줄어듭니다.</p>
+      <div class="rows" id="cortina-list"></div>
+      <div class="toolbar" style="margin:14px 0 0">
+        <input type="text" id="cortina-title-input" placeholder="제목" style="width:170px">
+        <input type="text" id="cortina-url-input" placeholder="유튜브 주소 또는 ID" style="flex:1;min-width:200px">
+        <button class="btn" id="cortina-add-btn">추가</button>
+        <span class="spacer"></span>
+        <button class="btn sm" id="cortina-restore-btn">기본 목록 복원</button>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>백업</h2>
+      <p class="note">모든 곡에는 유튜브 영상이 이미 들어 있습니다. 직접 바꾼 영상과 코르티나 목록만 이 브라우저에 저장됩니다.</p>
+      <div class="toolbar" style="margin:14px 0 0">
+        <button class="btn" id="export-btn">내보내기</button>
+        <label class="btn" for="import-file">가져오기</label>
+        <input type="file" id="import-file" accept="application/json" style="display:none">
+        <span class="spacer"></span>
+        <button class="btn" id="reset-btn">초기화</button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="site-footer">
+    제작: <a href="https://www.facebook.com/soobban/" target="_blank" rel="noopener">헨땅 53기 쎄븐</a>
+  </footer>
+</main>
+
+<div id="toasts"></div>
+
+<script>
+window.TANGO_DATA = __TANGO_DATA_JSON__;
+window.TANGO_INFO = __TANGO_INFO_JSON__;
+</script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+__APP_JS__
+</script>
+</body>
+</html>

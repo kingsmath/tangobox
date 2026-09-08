@@ -1,0 +1,3260 @@
+{
+  "meta": {
+    "generated": "2026-09-07",
+    "axis1_label": [
+      "리드미컬",
+      "로맨틱"
+    ],
+    "axis2_label": [
+      "조용",
+      "화려"
+    ],
+    "note": "axis1/axis2는 tejastango.com 분류 및 각 오케스트라의 알려진 스타일 특징을 근거로 한 추정 태그이며, 프로그램 내에서 사용자가 언제든 재조정 가능.",
+    "youtube": "각 곡의 v = 유튜브 검색 상위 영상 ID, alts = 대체 후보. 앱에서 언제든 바꿀 수 있음."
+  },
+  "tango": [
+    {
+      "id": "tango-001",
+      "genre": "tango",
+      "name": "Los Tubatango",
+      "orchestra": "Los Tubatango",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Old Guard",
+      "axis1": -1,
+      "axis2": -2,
+      "songs": [
+        {
+          "id": "tango-001-s1",
+          "title": "Rodríguez Peña",
+          "order": 1,
+          "v": "8V7Yx7pBBVs",
+          "alts": [
+            "tiaGboeWig8",
+            "QunLKXrKJ_o",
+            "i15iwVjgdGM"
+          ]
+        },
+        {
+          "id": "tango-001-s2",
+          "title": "Zorro Gris",
+          "order": 2,
+          "v": "r_gBxQiotVk",
+          "alts": [
+            "RS_htl_s9Pk",
+            "MB__VUuEAk0",
+            "_HIQJEfS7SQ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-002",
+      "genre": "tango",
+      "name": "Orquesta Típica Victor",
+      "orchestra": "Orquesta Típica Victor",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Old Guard",
+      "axis1": -1,
+      "axis2": -2,
+      "songs": [
+        {
+          "id": "tango-002-s1",
+          "title": "Re Fa Si",
+          "order": 1,
+          "v": "cIfyIHsH4zM",
+          "alts": [
+            "o5kxx5bavcY",
+            "3ZyAxAldW1Q",
+            "rj1mSAsgWHY"
+          ]
+        },
+        {
+          "id": "tango-002-s2",
+          "title": "Che Papusa Oí",
+          "order": 2,
+          "v": "a6maPegvWwU",
+          "alts": [
+            "wEHms2gEnas",
+            "Km9cG2YFM3A",
+            "rmBj-65iqzk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-003",
+      "genre": "tango",
+      "name": "Adolfo Carabelli",
+      "orchestra": "Adolfo Carabelli",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Old Guard",
+      "axis1": -1,
+      "axis2": -2,
+      "songs": [
+        {
+          "id": "tango-003-s1",
+          "title": "Mi Refugio",
+          "order": 1,
+          "v": "TJasG7PNzTA",
+          "alts": [
+            "iZ6xvDxclIc",
+            "lROXJD2fKCI",
+            "690GZ0vHXCM"
+          ]
+        },
+        {
+          "id": "tango-003-s2",
+          "title": "El Cabure",
+          "order": 2,
+          "v": "aCncurkryVw",
+          "alts": [
+            "zLRjd3qhaUs",
+            "l6qVA2QAXMM",
+            "hTDPajM8K4w"
+          ]
+        },
+        {
+          "id": "tango-003-s3",
+          "title": "Cuatro Palabras",
+          "order": 3,
+          "v": "cU3L4y7Z_JA",
+          "alts": [
+            "r15J2DuZjag",
+            "_2gGzK_VvNE",
+            "v1Tc1unjq9E"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-004",
+      "genre": "tango",
+      "name": "Julio De Caro — Golden Age",
+      "orchestra": "Julio De Caro",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Early Golden Age",
+      "axis1": 0,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-004-s1",
+          "title": "El Monito",
+          "order": 1,
+          "v": "x-yEykRs3a8",
+          "alts": [
+            "SlLqhi90dYs",
+            "7eTf--5Ge8E",
+            "dnWijXBraRk"
+          ]
+        },
+        {
+          "id": "tango-004-s2",
+          "title": "Derecho Viejo",
+          "order": 2,
+          "v": "MiRG5Vao2vk",
+          "alts": [
+            "Z3cK0oIdt7o",
+            "BX2HIddyv4s",
+            "jJjIdUiJQeM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-005",
+      "genre": "tango",
+      "name": "Osvaldo Fresedo — Tigre Viejo",
+      "orchestra": "Osvaldo Fresedo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Early Golden Age / Pink Champagne",
+      "axis1": 2,
+      "axis2": -2,
+      "songs": [
+        {
+          "id": "tango-005-s1",
+          "title": "Derecho Viejo (1941)",
+          "order": 1,
+          "v": "vwgPJjPd9NE",
+          "alts": [
+            "LsH7Conqu1w",
+            "VzUXbY50zMQ",
+            "BLUIF3mvbOg"
+          ]
+        },
+        {
+          "id": "tango-005-s2",
+          "title": "Tigre Viejo",
+          "order": 2,
+          "v": "RmipABjcDp8",
+          "alts": [
+            "v8wMecyhJP4",
+            "Rt2IjuEbK_w",
+            "ONlHw0Atp8Q"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-006",
+      "genre": "tango",
+      "name": "Francisco Canaro y su Quinteto Pirincho",
+      "orchestra": "Francisco Canaro",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Early Golden Age",
+      "axis1": 0,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-006-s1",
+          "title": "Viento en Popa",
+          "order": 1,
+          "v": "7bo5eAICkds",
+          "alts": [
+            "q-KCog0ycM4",
+            "LtrRXrb9E6Q",
+            "Qv6RYUw4USY"
+          ]
+        },
+        {
+          "id": "tango-006-s2",
+          "title": "Don Esteban",
+          "order": 2,
+          "v": "bMPCWTCAgTY",
+          "alts": [
+            "8TALQcdInJI",
+            "GkJNKMUyJE8",
+            "RJ4aJN7r4Co"
+          ]
+        },
+        {
+          "id": "tango-006-s3",
+          "title": "Champagne Tango",
+          "order": 3,
+          "v": "iQTru5O5Mzw",
+          "alts": [
+            "umb1PxyBaLo",
+            "fy8cgGLiEv4",
+            "itJCdzWwaww"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-007",
+      "genre": "tango",
+      "name": "Francisco Canaro — La Melodía de Nuestro Adiós",
+      "orchestra": "Francisco Canaro",
+      "singer": "-",
+      "note": "단일곡",
+      "axis1": 0,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-007-s1",
+          "title": "La Melodía de Nuestro Adiós",
+          "order": 1,
+          "v": "1rXD-OAQVNM",
+          "alts": [
+            "FxIfKnkrFQY",
+            "vMutaGEnkXg",
+            "urd2TaxUIYo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-008",
+      "genre": "tango",
+      "name": "믹스 탄다 (Canaro/Caló/Fresedo/Lomuto)",
+      "orchestra": "혼합",
+      "singer": "-",
+      "note": "오케스트라 혼합 탄다",
+      "axis1": 1,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-008-s1",
+          "title": "La Melodía de Nuestro Adiós — Canaro",
+          "order": 1,
+          "v": "1rXD-OAQVNM",
+          "alts": [
+            "zeTsFFozlWI",
+            "FxIfKnkrFQY",
+            "vMutaGEnkXg"
+          ]
+        },
+        {
+          "id": "tango-008-s2",
+          "title": "Yo Soy El Tango — Caló",
+          "order": 2,
+          "v": "UxWwWth4m24",
+          "alts": [
+            "SgIEMNi5810",
+            "Z_E10DHMMrQ",
+            "OhzH8dHMHFQ"
+          ]
+        },
+        {
+          "id": "tango-008-s3",
+          "title": "El Once — Fresedo",
+          "order": 3,
+          "v": "jsn6VYxAeYo",
+          "alts": [
+            "TeK-MOC2HRw",
+            "gDFxe7vpY3Y",
+            "3p0qCtZzCo4"
+          ]
+        },
+        {
+          "id": "tango-008-s4",
+          "title": "Mano a Mano — Lomuto",
+          "order": 4,
+          "v": "gNfhQT-EIL8",
+          "alts": [
+            "TqESpJqqxb8",
+            "kztrrOpS4GE",
+            "Fpw9FsiB5AM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-009",
+      "genre": "tango",
+      "name": "Juan D'Arienzo — El Flete",
+      "orchestra": "Juan D'Arienzo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -2,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-009-s1",
+          "title": "El Flete",
+          "order": 1,
+          "v": "BC4L1C9y4Dk",
+          "alts": [
+            "L8Wtum7sQeQ",
+            "MMbemnmN4ok",
+            "C_Rx1JXg80g"
+          ]
+        },
+        {
+          "id": "tango-009-s2",
+          "title": "Pensalo Bien",
+          "order": 2,
+          "v": "cKX1KIebEuY",
+          "alts": [
+            "nwQsd4LRQrY",
+            "8PntJlcscGU",
+            "g33OgvWaBmk"
+          ]
+        },
+        {
+          "id": "tango-009-s3",
+          "title": "Unión Cívica",
+          "order": 3,
+          "v": "H8vsB4xyWws",
+          "alts": [
+            "2cPkZ1jmpGQ",
+            "PsFVtoXapLE",
+            "S33P1eEtRM4"
+          ]
+        },
+        {
+          "id": "tango-009-s4",
+          "title": "Canaro en Paris",
+          "order": 4,
+          "v": "x-cIXG7yAWE",
+          "alts": [
+            "nqISDU48V74",
+            "XwDsm97ocbI",
+            "EdLhoWIAuHE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-010",
+      "genre": "tango",
+      "name": "Juan D'Arienzo — El Rey del Compás",
+      "orchestra": "Juan D'Arienzo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -2,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-010-s1",
+          "title": "Don Esteban",
+          "order": 1,
+          "v": "K15Wq-WgK8I",
+          "alts": [
+            "vIzHl-yKVTc",
+            "6gZRzMkBDxM",
+            "iPNyg9UypZY"
+          ]
+        },
+        {
+          "id": "tango-010-s2",
+          "title": "El Irresistible",
+          "order": 2,
+          "v": "hgNSPp8XT3I",
+          "alts": [
+            "WelHYjxev_4",
+            "v_N7N7NBUTM",
+            "kwPM2PlUTdg"
+          ]
+        },
+        {
+          "id": "tango-010-s3",
+          "title": "La Morocha",
+          "order": 3,
+          "v": "RGOmJZCCTWE",
+          "alts": [
+            "I06CkEVY5mM",
+            "ekqQg8x1ezQ",
+            "A7hP5vU5R90"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-011",
+      "genre": "tango",
+      "name": "Juan D'Arienzo — Felicia",
+      "orchestra": "Juan D'Arienzo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -2,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-011-s1",
+          "title": "El Internado",
+          "order": 1,
+          "v": "rkrjjM-_j08",
+          "alts": [
+            "27Bo4nie3-0",
+            "NVgppdlrIMQ",
+            "pqPlyp6acco"
+          ]
+        },
+        {
+          "id": "tango-011-s2",
+          "title": "Viejo Smoking",
+          "order": 2,
+          "v": "D-HDJeuOwhU",
+          "alts": [
+            "qZOwuynklE0",
+            "43yC92cCm6Y",
+            "iYzzvamZ9os"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-012",
+      "genre": "tango",
+      "name": "Juan D'Arienzo — Vol. 21",
+      "orchestra": "Juan D'Arienzo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -2,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-012-s1",
+          "title": "El Pollo Ricardo",
+          "order": 1,
+          "v": "_mWWz0M2m20",
+          "alts": [
+            "fMXKxFKXNdA",
+            "cDiRKNFfbOM",
+            "vxcEHozpB8o"
+          ]
+        },
+        {
+          "id": "tango-012-s2",
+          "title": "Che Negrito",
+          "order": 2,
+          "v": "uIQ2YvFZKIs",
+          "alts": [
+            "V8qBbb4TVTM",
+            "qAwddHaBLFc",
+            "Umx2XCpuSu4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-013",
+      "genre": "tango",
+      "name": "Juan D'Arienzo con Mario Bustos",
+      "orchestra": "Juan D'Arienzo",
+      "singer": "Mario Bustos",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -1,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-013-s1",
+          "title": "Justo El 31",
+          "order": 1,
+          "v": "S9bOYIXj8Yg",
+          "alts": [
+            "n6fL8TeH-6g",
+            "2tD1n3DbSuk",
+            "IeMmc45eSwk"
+          ]
+        },
+        {
+          "id": "tango-013-s2",
+          "title": "Si Soy Así",
+          "order": 2,
+          "v": "tEKpiHn3b1c",
+          "alts": [
+            "Jvep7nDvihs",
+            "ppT6PGdcYyI",
+            "RjFmPCnqZIM"
+          ]
+        },
+        {
+          "id": "tango-013-s3",
+          "title": "No Te Quiero Más",
+          "order": 3,
+          "v": "Gz7XSZxzlyA",
+          "alts": [
+            "uWsNI6jljVE",
+            "N9YxArjakWw",
+            "Ge2NUMhOYBs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-014",
+      "genre": "tango",
+      "name": "Orquesta Juan D'Arienzo",
+      "orchestra": "Juan D'Arienzo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -2,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-014-s1",
+          "title": "Derecho Viejo",
+          "order": 1,
+          "v": "dYMmsJZMfCE",
+          "alts": [
+            "k_nK0Ewr6Ws",
+            "zCZu4yewr9g",
+            "cLz5V4b2ogc"
+          ]
+        },
+        {
+          "id": "tango-014-s2",
+          "title": "Organito de la Tarde",
+          "order": 2,
+          "v": "3qGIn4Tvsjo",
+          "alts": [
+            "g5j5qs48Nt4",
+            "pyJ4E44GZ5Q",
+            "__sdUEWhzA0"
+          ]
+        },
+        {
+          "id": "tango-014-s3",
+          "title": "Don Juan",
+          "order": 3,
+          "v": "PnOti9EWwAQ",
+          "alts": [
+            "R48OWFUokas",
+            "A6skratGsz0",
+            "9Zn2U8trJoY"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-015",
+      "genre": "tango",
+      "name": "Rodolfo Biagi — Campo Afuera",
+      "orchestra": "Rodolfo Biagi",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -2,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-015-s1",
+          "title": "La Maleva",
+          "order": 1,
+          "v": "OZ4t74hXH2M",
+          "alts": [
+            "WLcM3WISmLU",
+            "jXy_t-gWIYw",
+            "KQ6rWPaDWWI"
+          ]
+        },
+        {
+          "id": "tango-015-s2",
+          "title": "Unión Cívica",
+          "order": 2,
+          "v": "r1oysxbfjG0",
+          "alts": [
+            "pvjPE1zbZXg",
+            "qO9y-WdkAeY",
+            "MLZOd0s3oqg"
+          ]
+        },
+        {
+          "id": "tango-015-s3",
+          "title": "A Mí No Me Interesa",
+          "order": 3,
+          "v": "SSIrnVnnaLQ",
+          "alts": [
+            "-GKYvuCQjiA",
+            "zfZq_73tLvo",
+            "Hvx71Bn54sE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-016",
+      "genre": "tango",
+      "name": "Rodolfo Biagi con Jorge Ortiz",
+      "orchestra": "Rodolfo Biagi",
+      "singer": "Jorge Ortiz",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -1,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-016-s1",
+          "title": "Guapo y Varón",
+          "order": 1,
+          "v": "F3OcT9Bc-2w",
+          "alts": [
+            "5XoG6RPQgk0",
+            "QVPZmWsO1q4",
+            "rdeU6Wst1p4"
+          ]
+        },
+        {
+          "id": "tango-016-s2",
+          "title": "Señor, Señor",
+          "order": 2,
+          "v": "7Wcgm8sr-qA",
+          "alts": [
+            "KCmLCSJjBFg",
+            "hoLHca-YLXA",
+            "9W-aN50fUx8"
+          ]
+        },
+        {
+          "id": "tango-016-s3",
+          "title": "Pájaro Ciego",
+          "order": 3,
+          "v": "ObS1lzHM03U",
+          "alts": [
+            "Ns-T8-_AGE8",
+            "XzaDS-pfkvE",
+            "nRb8FCAbCdA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-017",
+      "genre": "tango",
+      "name": "Rodolfo Biagi con Alberto Amor",
+      "orchestra": "Rodolfo Biagi",
+      "singer": "Alberto Amor",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -1,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-017-s1",
+          "title": "Si La Llegaran A Ver",
+          "order": 1,
+          "v": "gI8sCZIjMrc",
+          "alts": [
+            "SFYY0Mb5SrI",
+            "j23WtroZVrQ",
+            "FcQiKe1v2h8"
+          ]
+        },
+        {
+          "id": "tango-017-s2",
+          "title": "Tus Labios Me Dirán",
+          "order": 2,
+          "v": "QyVg92xd_SQ",
+          "alts": [
+            "T_VVHIkVZt4",
+            "p6IHsZqblAw",
+            "2EySJHLFu8Y"
+          ]
+        },
+        {
+          "id": "tango-017-s3",
+          "title": "Seamos Amigos",
+          "order": 3,
+          "v": "L880jSA5BXA",
+          "alts": [
+            "580DbxA81eU",
+            "FzhIUEwU_pM",
+            "PmpDo3bHzbE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-018",
+      "genre": "tango",
+      "name": "Enrique Rodríguez con Flores y Moreno",
+      "orchestra": "Enrique Rodríguez",
+      "singer": "Roberto Flores / Armando Moreno",
+      "note": "Golden Age Harder Rhythmic",
+      "axis1": -1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-018-s1",
+          "title": "Son Cosas del Bandoneón",
+          "order": 1,
+          "v": "NvF0MFo9nec",
+          "alts": [
+            "Q_xNeQgWaK8",
+            "dt-qQTj2cMw",
+            "RsitQScA7-E"
+          ]
+        },
+        {
+          "id": "tango-018-s2",
+          "title": "A Media Luz",
+          "order": 2,
+          "v": "z9Ehj9NhdW4",
+          "alts": [
+            "hBXgeZHBgLM",
+            "7wNVcF-NXFo",
+            "LXkgimn3UBE"
+          ]
+        },
+        {
+          "id": "tango-018-s3",
+          "title": "Cómo Se Pianta la Vida",
+          "order": 3,
+          "v": "k71V2cIRTWE",
+          "alts": [
+            "wB3gNuTXaZc",
+            "-aTf_uUAf-E",
+            "RXw39dm6eD8"
+          ]
+        },
+        {
+          "id": "tango-018-s4",
+          "title": "En la Buena y en la Mala",
+          "order": 4,
+          "v": "3qYlWQZbjeg",
+          "alts": [
+            "grR5g9osxx8",
+            "7MI2ThgQSl4",
+            "CJ83uwmbp2E"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-019",
+      "genre": "tango",
+      "name": "Aníbal Troilo — Pichuco",
+      "orchestra": "Aníbal Troilo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Softer Rhythmic",
+      "axis1": 0,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-019-s1",
+          "title": "Milongueando en el 40",
+          "order": 1,
+          "v": "ZRQLVTDDKUc",
+          "alts": [
+            "_mXX8D6UQlw",
+            "86YNbLynl0A",
+            "2ElNfchH4vk"
+          ]
+        },
+        {
+          "id": "tango-019-s2",
+          "title": "Cordón de Oro",
+          "order": 2,
+          "v": "887c7Y0C4zk",
+          "alts": [
+            "N_aDXsqDYLw",
+            "46FEpJCWynk",
+            "2C5J99HtWPQ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-020",
+      "genre": "tango",
+      "name": "Aníbal Troilo con Francisco Fiorentino — Tinta Roja",
+      "orchestra": "Aníbal Troilo",
+      "singer": "Francisco Fiorentino",
+      "note": "Golden Age Softer Rhythmic",
+      "axis1": 1,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-020-s1",
+          "title": "Tinta Roja",
+          "order": 1,
+          "v": "iUWlohZCYao",
+          "alts": [
+            "-b7JTE1QTI0",
+            "xb2E5J5scYU",
+            "bUXee4-JO0I"
+          ]
+        },
+        {
+          "id": "tango-020-s2",
+          "title": "El Bulín de la Calle Ayacucho",
+          "order": 2,
+          "v": "4wH4I_1CMX8",
+          "alts": [
+            "fueJiZ0qZqQ",
+            "ZW72yOQiyhI",
+            "dOATDikRQ6k"
+          ]
+        },
+        {
+          "id": "tango-020-s3",
+          "title": "Toda Mi Vida",
+          "order": 3,
+          "v": "y2gg4FxpeZI",
+          "alts": [
+            "yPHYf_m9QdY",
+            "Z8f-f9jkFx0",
+            "mYp1wtsCi3U"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-021",
+      "genre": "tango",
+      "name": "Ricardo Tanturi con Alberto Castillo",
+      "orchestra": "Ricardo Tanturi",
+      "singer": "Alberto Castillo",
+      "note": "Golden Age Softer Rhythmic",
+      "axis1": -1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-021-s1",
+          "title": "Ese Sos Vos",
+          "order": 1,
+          "v": "1UH1iS-BLQQ",
+          "alts": [
+            "qU7gME1gS2U",
+            "sBE_Hj-lnIE",
+            "fe2rxEQcuDY"
+          ]
+        },
+        {
+          "id": "tango-021-s2",
+          "title": "Una Noche de Garufa (Inst.)",
+          "order": 2,
+          "v": "Qd9QPg_Kf1w",
+          "alts": [
+            "Sa0s3IfsNl8",
+            "IBObnLSRxk4",
+            "RpgBmGj6NV8"
+          ]
+        },
+        {
+          "id": "tango-021-s3",
+          "title": "Recuerdo Malevo",
+          "order": 3,
+          "v": "baQSOiCKL2Y",
+          "alts": [
+            "NFYEiFfKR_4",
+            "sjGDm9srdWQ",
+            "WC51KaJCdVA"
+          ]
+        },
+        {
+          "id": "tango-021-s4",
+          "title": "Cuatro Compases",
+          "order": 4,
+          "v": "YJOGPUYmN9g",
+          "alts": [
+            "NFaJu8t88hY",
+            "45lpm-sWTq8",
+            "aQoK_1YOXpc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-022",
+      "genre": "tango",
+      "name": "Miguel Caló — Sans Souci",
+      "orchestra": "Miguel Caló",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Softer Rhythmic",
+      "axis1": 1,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-022-s1",
+          "title": "Sans Souci",
+          "order": 1,
+          "v": "twdpZFJI57s",
+          "alts": [
+            "-0oyHezKdko",
+            "ujzL6-9SW6E",
+            "pW2JDoifjvA"
+          ]
+        },
+        {
+          "id": "tango-022-s2",
+          "title": "Lejos de Buenos Aires",
+          "order": 2,
+          "v": "DBaJOTGWBsg",
+          "alts": [
+            "388zFS0pq1s",
+            "_lEyte2W-2A",
+            "zAy2d7cqJG8"
+          ]
+        },
+        {
+          "id": "tango-022-s3",
+          "title": "La Cantina",
+          "order": 3,
+          "v": "6bmiUPBLhDo",
+          "alts": [
+            "1ODvOFyzRyM",
+            "uDXDRUVjDt0",
+            "fKt1_8aZZns"
+          ]
+        },
+        {
+          "id": "tango-022-s4",
+          "title": "Yo Soy el Tango",
+          "order": 4,
+          "v": "UxWwWth4m24",
+          "alts": [
+            "OhzH8dHMHFQ",
+            "uXGCfRMTve4",
+            "uXljWpP2Sac"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-023",
+      "genre": "tango",
+      "name": "Miguel Caló — Stock Privado",
+      "orchestra": "Miguel Caló",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Softer Rhythmic — 일부 곡명 미상",
+      "axis1": 0,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-023-s1",
+          "title": "Tarde Gris",
+          "order": 1,
+          "v": "niH_GGKPOoQ",
+          "alts": [
+            "_Q0vTKGqysk",
+            "qFpmMGUmIU8",
+            "xhBk1N1-gYQ"
+          ]
+        },
+        {
+          "id": "tango-023-s2",
+          "title": "La Maleva",
+          "order": 2,
+          "v": "_XFIGSN5mms",
+          "alts": [
+            "caJrY0n02gY",
+            "i9N3qlTwa0s",
+            "Du1HYTr6tHA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-024",
+      "genre": "tango",
+      "name": "Pedro Laurenz",
+      "orchestra": "Pedro Laurenz",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Softer Rhythmic",
+      "axis1": -1,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-024-s1",
+          "title": "De Puro Guapo",
+          "order": 1,
+          "v": "5bDd7LOZDCE",
+          "alts": [
+            "ssxapP5jSEQ",
+            "ys21Cf1qcZs",
+            "1HmBx8NPfLw"
+          ]
+        },
+        {
+          "id": "tango-024-s2",
+          "title": "Orgullo Criollo",
+          "order": 2,
+          "v": "D2EOEqxO3SM",
+          "alts": [
+            "3-SGK0beZAU",
+            "U5SzcfO0HWs",
+            "1c_RXIFhZq4"
+          ]
+        },
+        {
+          "id": "tango-024-s3",
+          "title": "Nunca Tuvo Novio",
+          "order": 3,
+          "v": "zQiFICtCIN0",
+          "alts": [
+            "1PKdgz3uYNs",
+            "n1lZ6yEpwVk",
+            "gwV9MOVgCDc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-025",
+      "genre": "tango",
+      "name": "Ángel D'Agostino y Ángel Vargas — Hotel Victoria",
+      "orchestra": "Ángel D'Agostino",
+      "singer": "Ángel Vargas",
+      "note": "Golden Age Softer Rhythmic",
+      "axis1": 2,
+      "axis2": -2,
+      "songs": [
+        {
+          "id": "tango-025-s1",
+          "title": "A Pan y Agua",
+          "order": 1,
+          "v": "UzJ_ylY78z4",
+          "alts": [
+            "nMIAX1caDSk",
+            "cEBd9-6N9pc",
+            "ZGzgkOVzmy8"
+          ]
+        },
+        {
+          "id": "tango-025-s2",
+          "title": "Esta Noche en Buenos Aires",
+          "order": 2,
+          "v": "AMmDKBQPF2I",
+          "alts": [
+            "NWCn6PqjZQ0",
+            "FRmYe37nt0U",
+            "DTgzc-9EuBc"
+          ]
+        },
+        {
+          "id": "tango-025-s3",
+          "title": "Mano Blanca",
+          "order": 3,
+          "v": "fwFe4K5l6UY",
+          "alts": [
+            "xOAiThPQTcw",
+            "3HuGCjOcom4",
+            "tPdGkv0ms04"
+          ]
+        },
+        {
+          "id": "tango-025-s4",
+          "title": "Hotel Victoria",
+          "order": 4,
+          "v": "naS9GyQi71M",
+          "alts": [
+            "Mjs_Oj3_jXM",
+            "JqbVhp_VLhE",
+            "tuLqS5oIol4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-026",
+      "genre": "tango",
+      "name": "Ángel D'Agostino y Ángel Vargas — Pero Yo Sé",
+      "orchestra": "Ángel D'Agostino",
+      "singer": "Ángel Vargas",
+      "note": "Golden Age Softer Rhythmic",
+      "axis1": 2,
+      "axis2": -2,
+      "songs": [
+        {
+          "id": "tango-026-s1",
+          "title": "Pero Yo Sé",
+          "order": 1,
+          "v": "Ui6BaKthnuo",
+          "alts": [
+            "1_LssXVIEes",
+            "XreLZr5ldS4",
+            "mjBgjEH9hB8"
+          ]
+        },
+        {
+          "id": "tango-026-s2",
+          "title": "Una Pena",
+          "order": 2,
+          "v": "NHH44U5eQts",
+          "alts": [
+            "yEmPVeY3ZYE",
+            "AioCv52V-M4",
+            "cp16X59rpeo"
+          ]
+        },
+        {
+          "id": "tango-026-s3",
+          "title": "Mi Viejo Barrio",
+          "order": 3,
+          "v": "Vd41F9yN6FA",
+          "alts": [
+            "hx-Fw3bU0ak",
+            "VjGL50SoT_0",
+            "iNDLlRId1TU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-027",
+      "genre": "tango",
+      "name": "Ángel D'Agostino y Ángel Vargas — Café Domínguez",
+      "orchestra": "Ángel D'Agostino",
+      "singer": "Ángel Vargas",
+      "note": "★ 2024 문디알 데 탕고 시니어 Pista 1R 실사용 확인 · Golden Age Softer Rhythmic",
+      "axis1": 2,
+      "axis2": -2,
+      "songs": [
+        {
+          "id": "tango-027-s1",
+          "title": "Café Domínguez",
+          "order": 1,
+          "v": "46uIf2VZZ2M",
+          "alts": [
+            "pCyjC50m8vs",
+            "VRlwqdOiMUA",
+            "aS7YaE1JsJI"
+          ]
+        },
+        {
+          "id": "tango-027-s2",
+          "title": "Me Llaman Tango",
+          "order": 2,
+          "v": "YmFtX6FQqTc",
+          "alts": [
+            "-JRGAF9HTBk",
+            "txGv5nbIFBc",
+            "EOvrAzqmdjo"
+          ]
+        },
+        {
+          "id": "tango-027-s3",
+          "title": "Tomo y Obligo",
+          "order": 3,
+          "v": "7NkcReSq8Cw",
+          "alts": [
+            "AUlvr_7WLrU",
+            "VNtCWWH9Ib4",
+            "okaH_bqWmN0"
+          ]
+        },
+        {
+          "id": "tango-027-s4",
+          "title": "El Aristócrata",
+          "order": 4,
+          "v": "musBjtTJuCc",
+          "alts": [
+            "TreqASv3Hjc",
+            "w_Pd_96gd9Q",
+            "f-OK7og5SoQ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-028",
+      "genre": "tango",
+      "name": "Carlos Di Sarli — Shusheta",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Smooth",
+      "axis1": -1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-028-s1",
+          "title": "El Recodo",
+          "order": 1,
+          "v": "cC1ardiuEr8",
+          "alts": [
+            "b7ARt5HI16I",
+            "xGON2G37JCM",
+            "utfnHsO2OiE"
+          ]
+        },
+        {
+          "id": "tango-028-s2",
+          "title": "La Cachila",
+          "order": 2,
+          "v": "7-4AS7XkCog",
+          "alts": [
+            "PkbZOlNkQgM",
+            "gTYMuaFRwpc",
+            "q2n5TFyGoec"
+          ]
+        },
+        {
+          "id": "tango-028-s3",
+          "title": "La Torcacita",
+          "order": 3,
+          "v": "--V71_4mbXE",
+          "alts": [
+            "9kIFAV2ijp0",
+            "XToQ4W-KoYU",
+            "0gWUdcKmpl0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-029",
+      "genre": "tango",
+      "name": "Carlos Di Sarli — Milonguero Viejo",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Smooth",
+      "axis1": -1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-029-s1",
+          "title": "A La Gran Muñeca",
+          "order": 1,
+          "v": "lgWBrg5aoAs",
+          "alts": [
+            "nkaDq28iIHQ",
+            "iOV5yeYHpuo",
+            "VlHCRUv9jwY"
+          ]
+        },
+        {
+          "id": "tango-029-s2",
+          "title": "El Cabure",
+          "order": 2,
+          "v": "zk6GqbWkl3Q",
+          "alts": [
+            "e90_uQdrSjY",
+            "ok4ls1P6kY8",
+            "JhnfduLpNXE"
+          ]
+        },
+        {
+          "id": "tango-029-s3",
+          "title": "El Once",
+          "order": 3,
+          "v": "1xElpSHoZo8",
+          "alts": [
+            "lIyWnrO7I2Y",
+            "crc9bGjwIJ4",
+            "ultpGMlG08k"
+          ]
+        },
+        {
+          "id": "tango-029-s4",
+          "title": "Milonguero Viejo",
+          "order": 4,
+          "v": "CJLolDfNpGw",
+          "alts": [
+            "-UCIRrGpgcU",
+            "PhJvVyQAxp4",
+            "LWiVWamaTsg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-030",
+      "genre": "tango",
+      "name": "Carlos Di Sarli — El Choclo",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Smooth",
+      "axis1": -1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-030-s1",
+          "title": "La Morocha",
+          "order": 1,
+          "v": "gAoQMrKCuKg",
+          "alts": [
+            "2tKQF_5IAGM",
+            "iJTM9vOf9zA",
+            "IV7NxRu3FT4"
+          ]
+        },
+        {
+          "id": "tango-030-s2",
+          "title": "Duelo Criollo",
+          "order": 2,
+          "v": "j4wtgmy-RLI",
+          "alts": [
+            "CnVrwTH3t_o",
+            "0r9aKSuZaVs",
+            "bo6T4Hakk1c"
+          ]
+        },
+        {
+          "id": "tango-030-s3",
+          "title": "El Choclo",
+          "order": 3,
+          "v": "EDxJnrkKLZc",
+          "alts": [
+            "W3Uo5Z-6ZyE",
+            "QE7dQ5APKec",
+            "QUTyRZHMbC4"
+          ]
+        },
+        {
+          "id": "tango-030-s4",
+          "title": "Mi Refugio",
+          "order": 4,
+          "v": "QC38Qghv4iI",
+          "alts": [
+            "VAsRty7yG04",
+            "s-H8AatRN3Q",
+            "aIaEdFEbLmU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-031",
+      "genre": "tango",
+      "name": "Carlos Di Sarli — Don Juan",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Smooth",
+      "axis1": -1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-031-s1",
+          "title": "Don Juan",
+          "order": 1,
+          "v": "UFLeCBgpkLI",
+          "alts": [
+            "teZ8zyH1RBU",
+            "lIUJ81ZK_cc",
+            "fSAoWOmzzfk"
+          ]
+        },
+        {
+          "id": "tango-031-s2",
+          "title": "Tinta Verde",
+          "order": 2,
+          "v": "hO6FQ2SHqd0",
+          "alts": [
+            "tYxqe8iuqzk",
+            "zGjzKDP3eqc",
+            "ZbCpeqZnv8A"
+          ]
+        },
+        {
+          "id": "tango-031-s3",
+          "title": "Comme Il Faut",
+          "order": 3,
+          "v": "-c4v0Cu6t3E",
+          "alts": [
+            "OrV_9kfjAqY",
+            "RwcuHR_UBfE",
+            "yAvJsfPIY8Y"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-032",
+      "genre": "tango",
+      "name": "Carlos Di Sarli — El Ingeniero",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Smooth",
+      "axis1": -1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-032-s1",
+          "title": "Organito de la Tarde",
+          "order": 1,
+          "v": "iYx1Jk3qQkM",
+          "alts": [
+            "V0K22e90tcA",
+            "JoCR6zLZEts",
+            "fjthgsmPcYA"
+          ]
+        },
+        {
+          "id": "tango-032-s2",
+          "title": "Champagne Tango",
+          "order": 2,
+          "v": "TTlDwrLpp1A",
+          "alts": [
+            "x0MYP2MtWro",
+            "mZXIngh4h-w",
+            "ycWitHwwZxA"
+          ]
+        },
+        {
+          "id": "tango-032-s3",
+          "title": "El Pollo Ricardo",
+          "order": 3,
+          "v": "XoSkVgQaBlQ",
+          "alts": [
+            "lB9r2Y_9mqU",
+            "sshNXtxgqvo",
+            "B2UEajOQK_8"
+          ]
+        },
+        {
+          "id": "tango-032-s4",
+          "title": "El Ingeniero",
+          "order": 4,
+          "v": "JYj5E8LGyTc",
+          "alts": [
+            "4n9KLVDDvcA",
+            "EeB693B-ZZA",
+            "EaUR_AErE-o"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-033",
+      "genre": "tango",
+      "name": "Carlos Di Sarli — Bahía Blanca",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Smooth",
+      "axis1": -1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-033-s1",
+          "title": "Bahía Blanca",
+          "order": 1,
+          "v": "dqFWz9_uqe0",
+          "alts": [
+            "DcmTR6dksq8",
+            "6doedLhRF4Y",
+            "u2hY2qicINA"
+          ]
+        },
+        {
+          "id": "tango-033-s2",
+          "title": "El Pollito",
+          "order": 2,
+          "v": "7etXQuAsfy8",
+          "alts": [
+            "X74EyMd8CDI",
+            "gPNwTR05Org",
+            "VpEJhB2Yyms"
+          ]
+        },
+        {
+          "id": "tango-033-s3",
+          "title": "El Amanecer",
+          "order": 3,
+          "v": "-7-Oz1o0wo8",
+          "alts": [
+            "bUgOa4VXw-I",
+            "TGGXuFreHAM",
+            "gM2IF-2mFAo"
+          ]
+        },
+        {
+          "id": "tango-033-s4",
+          "title": "El Once",
+          "order": 4,
+          "v": "1xElpSHoZo8",
+          "alts": [
+            "lIyWnrO7I2Y",
+            "ultpGMlG08k",
+            "crc9bGjwIJ4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-034",
+      "genre": "tango",
+      "name": "Aníbal Troilo — Quejas de Bandoneón",
+      "orchestra": "Aníbal Troilo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Smooth",
+      "axis1": 0,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-034-s1",
+          "title": "Quejas de Bandoneón",
+          "order": 1,
+          "v": "h7ZHEfMvbB0",
+          "alts": [
+            "xTdPw7mOqKQ",
+            "FZ6rT4Dh39A",
+            "1qbVSIYhnpU"
+          ]
+        },
+        {
+          "id": "tango-034-s2",
+          "title": "El Marne",
+          "order": 2,
+          "v": "1J4Bkr38ZDY",
+          "alts": [
+            "L0pGvWcWVgE",
+            "qRokrpCeALI",
+            "861fI31TChw"
+          ]
+        },
+        {
+          "id": "tango-034-s3",
+          "title": "El Pollo Ricardo",
+          "order": 3,
+          "v": "a6mu0fOQMl8",
+          "alts": [
+            "33PlzyT6aUw",
+            "aw1LhzCHFms",
+            "SA8e_zHn2eI"
+          ]
+        },
+        {
+          "id": "tango-034-s4",
+          "title": "Don Juan",
+          "order": 4,
+          "v": "OLIOy_pNNnU",
+          "alts": [
+            "VplC-P-qfDw",
+            "HT3ib9HcA_Q",
+            "BKknWKJfu9A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-035",
+      "genre": "tango",
+      "name": "Miguel Caló con Raúl Berón",
+      "orchestra": "Miguel Caló",
+      "singer": "Raúl Berón",
+      "note": "Golden Age Lyrical",
+      "axis1": 2,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-035-s1",
+          "title": "Al Compás del Corazón",
+          "order": 1,
+          "v": "Ezwjh59scIk",
+          "alts": [
+            "nJt5L_-vZ5w",
+            "ahcvWdF2CY4",
+            "CmND0G86_8A"
+          ]
+        },
+        {
+          "id": "tango-035-s2",
+          "title": "Qué Te Importa Que Te Llore",
+          "order": 2,
+          "v": "-_jWg6L2bAk",
+          "alts": [
+            "MquWTR5YXhI",
+            "oHVwjRj1z7o",
+            "tspvkgTdyOg"
+          ]
+        },
+        {
+          "id": "tango-035-s3",
+          "title": "Tristezas de la Calle Corrientes",
+          "order": 3,
+          "v": "TbTo1r7AATo",
+          "alts": [
+            "hGOiu5-w3c0",
+            "oZziuOho31k",
+            "jQKTvCVw_-I"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-036",
+      "genre": "tango",
+      "name": "Aníbal Troilo con Francisco Fiorentino — Malena",
+      "orchestra": "Aníbal Troilo",
+      "singer": "Francisco Fiorentino",
+      "note": "Golden Age Lyrical",
+      "axis1": 2,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-036-s1",
+          "title": "En Esta Tarde Gris",
+          "order": 1,
+          "v": "5QhfWRPTToA",
+          "alts": [
+            "w9DLVl6DTXY",
+            "rcdWrdUaRhA",
+            "ImXUyYxeNOA"
+          ]
+        },
+        {
+          "id": "tango-036-s2",
+          "title": "Sencillo y Compadre",
+          "order": 2,
+          "v": "zA9wTczn0H4",
+          "alts": [
+            "2l3OeTiImN0",
+            "-lT7DJq36TA",
+            "6Svd5puT4Y0"
+          ]
+        },
+        {
+          "id": "tango-036-s3",
+          "title": "Pájaro Ciego",
+          "order": 3,
+          "v": "1OzpWGMLL2E",
+          "alts": [
+            "mHs8F7hrwdA",
+            "bkRzl0FKz4Y",
+            "0Zqqe4iwcsM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-037",
+      "genre": "tango",
+      "name": "Carlos Di Sarli — El Señor del Tango",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "-",
+      "note": "Golden Age Lyrical (Vocal)",
+      "axis1": 1,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-037-s1",
+          "title": "Porteño y Bailarín",
+          "order": 1,
+          "v": "Zso87gLe87U",
+          "alts": [
+            "yR1_x3RwAeU",
+            "jE_kbzjKLtQ",
+            "t8Vz6hBcXHs"
+          ]
+        },
+        {
+          "id": "tango-037-s2",
+          "title": "Un Tango y Nada Más",
+          "order": 2,
+          "v": "snkgat-Ny0k",
+          "alts": [
+            "iflElymQGt8",
+            "HkWGySF7TJM",
+            "b_WLGIPfzvs"
+          ]
+        },
+        {
+          "id": "tango-037-s3",
+          "title": "Vieja Luna",
+          "order": 3,
+          "v": "18FPhqxMJPQ",
+          "alts": [
+            "4okrHR2_B2I",
+            "vsxJPbotG-0",
+            "ha7PxBqEeLo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-038",
+      "genre": "tango",
+      "name": "Francisco Canaro — Uno",
+      "orchestra": "Francisco Canaro",
+      "singer": "-",
+      "note": "Golden Age Lyrical (Vocal)",
+      "axis1": 1,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-038-s1",
+          "title": "Nido Gaucho",
+          "order": 1,
+          "v": "yN-pDHQH1fs",
+          "alts": [
+            "zq0UlXPxG_Q",
+            "PFZPyWsfbQw",
+            "PU-9iwmlmQU"
+          ]
+        },
+        {
+          "id": "tango-038-s2",
+          "title": "Como Dos Extraños",
+          "order": 2,
+          "v": "kCZWCT17Xrg",
+          "alts": [
+            "HGXXwSpSjl8",
+            "gDM4NXTUQIs",
+            "cIxJNUCeTHU"
+          ]
+        },
+        {
+          "id": "tango-038-s3",
+          "title": "Cada Vez Que Me Recuerdes",
+          "order": 3,
+          "v": "szxaKQb8c1Y",
+          "alts": [
+            "vA6NZkfzCOA",
+            "GJc3kVWQFIo",
+            "8Q6fmdCXDHs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-039",
+      "genre": "tango",
+      "name": "Osvaldo Fresedo con Roberto Ray — Vida Mía",
+      "orchestra": "Osvaldo Fresedo",
+      "singer": "Roberto Ray",
+      "note": "Golden Age Lyrical (Vocal) / Pink Champagne",
+      "axis1": 2,
+      "axis2": -2,
+      "songs": [
+        {
+          "id": "tango-039-s1",
+          "title": "Vida Mía",
+          "order": 1,
+          "v": "pP-ddrQ_8lg",
+          "alts": [
+            "PK5Z-rNwihQ",
+            "FWJ6g3Th9Vk",
+            "vYAU1OH-Cmo"
+          ]
+        },
+        {
+          "id": "tango-039-s2",
+          "title": "Niebla del Riachuelo",
+          "order": 2,
+          "v": "-jOWM-vjvQg",
+          "alts": [
+            "XkeWpqMqb_w",
+            "3iTFKL8gaI4",
+            "G9IkP72NYCI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-040",
+      "genre": "tango",
+      "name": "Ricardo Tanturi con Enrique Campos",
+      "orchestra": "Ricardo Tanturi",
+      "singer": "Enrique Campos",
+      "note": "Golden Age Lyrical (Vocal)",
+      "axis1": 1,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-040-s1",
+          "title": "Muchachos Comienza la Ronda",
+          "order": 1,
+          "v": "yhZjxxbfAfk",
+          "alts": [
+            "XzkwcUcjzUY",
+            "eDs-mwVbMZs",
+            "ft1_Ss1Awd0"
+          ]
+        },
+        {
+          "id": "tango-040-s2",
+          "title": "Así Se Canta",
+          "order": 2,
+          "v": "zTCAru4I1ts",
+          "alts": [
+            "i3wZP9_cdD4",
+            "oNVtLtGLglc",
+            "MDTQBZLTfnw"
+          ]
+        },
+        {
+          "id": "tango-040-s3",
+          "title": "Una Emoción",
+          "order": 3,
+          "v": "FGhmvsJbWxE",
+          "alts": [
+            "E4wNXIq66Sk",
+            "kgesWPGQxXg",
+            "9VpOg6hn33M"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-041",
+      "genre": "tango",
+      "name": "Lucio Demare con Roberto Arrieta",
+      "orchestra": "Lucio Demare",
+      "singer": "Roberto Arrieta",
+      "note": "Golden Age Lyrical (Vocal)",
+      "axis1": 1,
+      "axis2": -1,
+      "songs": [
+        {
+          "id": "tango-041-s1",
+          "title": "Al Compás de un Tango",
+          "order": 1,
+          "v": "RwdAlMVAIiI",
+          "alts": [
+            "Fb19OqC7f8Q",
+            "K3Kw0PIghlw",
+            "QHO7o7p1j1w"
+          ]
+        },
+        {
+          "id": "tango-041-s2",
+          "title": "Canción de Rango",
+          "order": 2,
+          "v": "9IJkAyIXjl8",
+          "alts": [
+            "O3Mn8MoNdbI",
+            "4wLB49eJNVY",
+            "WiRhZ0o_MPw"
+          ]
+        },
+        {
+          "id": "tango-041-s3",
+          "title": "Tango Guapo",
+          "order": 3,
+          "v": "2EdnpAkQeVI",
+          "alts": [
+            "KJPl1Xe-nTg",
+            "UyaVARDy3z4",
+            "9S4NJgSf5Kg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-042",
+      "genre": "tango",
+      "name": "Alfredo De Angelis — Adiós Marinero",
+      "orchestra": "Alfredo De Angelis",
+      "singer": "-",
+      "note": "Golden Age Lyrical (혼합)",
+      "axis1": 1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-042-s1",
+          "title": "Pura Maña",
+          "order": 1,
+          "v": "z0OWbsAgUN8",
+          "alts": [
+            "Yd_91ntfMew",
+            "ZQS4yyGu4pg",
+            "51cCXJfZPTU"
+          ]
+        },
+        {
+          "id": "tango-042-s2",
+          "title": "El Entrerriano",
+          "order": 2,
+          "v": "42tuSXnSmdo",
+          "alts": [
+            "GpWYtRn9DeU",
+            "zE0UoD_N4TI",
+            "fXN-GzleODA"
+          ]
+        },
+        {
+          "id": "tango-042-s3",
+          "title": "Adiós Marinero",
+          "order": 3,
+          "v": "I51OxYHZVdo",
+          "alts": [
+            "qOzR_zmCHB8",
+            "dxAahJBOBxg",
+            "yeMtr-vFf2E"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-043",
+      "genre": "tango",
+      "name": "Alfredo De Angelis — Pavadita",
+      "orchestra": "Alfredo De Angelis",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Dramatic",
+      "axis1": 0,
+      "axis2": 2,
+      "songs": [
+        {
+          "id": "tango-043-s1",
+          "title": "El Tango Club",
+          "order": 1,
+          "v": "CQxDwZG2YH4",
+          "alts": [
+            "PozCNv220zA",
+            "2M_ObGXGjZo",
+            "v2Qdmzpbdag"
+          ]
+        },
+        {
+          "id": "tango-043-s2",
+          "title": "El Pial",
+          "order": 2,
+          "v": "AIqsqH30sQM",
+          "alts": [
+            "QSozGi1H23U",
+            "HGPfoKSOrr0",
+            "y5V0nmSyyQM"
+          ]
+        },
+        {
+          "id": "tango-043-s3",
+          "title": "Guardia Vieja",
+          "order": 3,
+          "v": "KZJVByCTGeY",
+          "alts": [
+            "DxrjvAYwFgk",
+            "wdPgXyHOC78",
+            "4iFbcu9zFWA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-044",
+      "genre": "tango",
+      "name": "Osvaldo Pugliese — De Caro por Pugliese",
+      "orchestra": "Osvaldo Pugliese",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Dramatic",
+      "axis1": -1,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-044-s1",
+          "title": "Tierra Querida",
+          "order": 1,
+          "v": "PyR4SetQyZs",
+          "alts": [
+            "Ab5mmFn6j4A",
+            "NjhrlhA6cRE",
+            "0qMBsp9beg8"
+          ]
+        },
+        {
+          "id": "tango-044-s2",
+          "title": "Mala Junta",
+          "order": 2,
+          "v": "6NOMSExtLnM",
+          "alts": [
+            "C2uufJxo_y4",
+            "NAV8lOyMe6A",
+            "kf36HMRgDRk"
+          ]
+        },
+        {
+          "id": "tango-044-s3",
+          "title": "Orgullo Criollo",
+          "order": 3,
+          "v": "K-sZqqCXlzA",
+          "alts": [
+            "XUSSiZzjcuA",
+            "nxTijAEn2LI",
+            "1vCbo5Iacwk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-045",
+      "genre": "tango",
+      "name": "Osvaldo Pugliese — Tiny",
+      "orchestra": "Osvaldo Pugliese",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Dramatic",
+      "axis1": 0,
+      "axis2": 2,
+      "songs": [
+        {
+          "id": "tango-045-s1",
+          "title": "Mala Estampa",
+          "order": 1,
+          "v": "eJVq1CC2wrw",
+          "alts": [
+            "95_asgzbeZ0",
+            "ATl9eBMeKIw",
+            "kYiJZT473Xw"
+          ]
+        },
+        {
+          "id": "tango-045-s2",
+          "title": "Raza Criolla",
+          "order": 2,
+          "v": "qCjLA9LBqVg",
+          "alts": [
+            "vAaas6G2R5M",
+            "7Xt8-iHjr-o",
+            "w8jRezkt9uE"
+          ]
+        },
+        {
+          "id": "tango-045-s3",
+          "title": "El Remate",
+          "order": 3,
+          "v": "vO0SRwBEk_8",
+          "alts": [
+            "h99RgEzTdIo",
+            "q4TpHmtmp_s",
+            "vbkvoTCS-PI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-046",
+      "genre": "tango",
+      "name": "Osvaldo Pugliese — La Yumba",
+      "orchestra": "Osvaldo Pugliese",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Dramatic (대표곡 'La Yumba')",
+      "axis1": 0,
+      "axis2": 2,
+      "songs": [
+        {
+          "id": "tango-046-s1",
+          "title": "La Yumba",
+          "order": 1,
+          "v": "M8Rf2_hmkhA",
+          "alts": [
+            "FPjHdOM9Nco",
+            "9DEWMWn44LA",
+            "8QkPxHYgANA"
+          ]
+        },
+        {
+          "id": "tango-046-s2",
+          "title": "Gallo Ciego",
+          "order": 2,
+          "v": "4sou-mSBLUs",
+          "alts": [
+            "OCtj4S72ezE",
+            "BikEwRasN4w",
+            "eSg9B_plTtA"
+          ]
+        },
+        {
+          "id": "tango-046-s3",
+          "title": "Corrientes y Esmeralda",
+          "order": 3,
+          "v": "1VUf_jAFR-Q",
+          "alts": [
+            "In9Q2uoL5ew",
+            "R6h_pGs901c",
+            "FozNgYE3_y4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-047",
+      "genre": "tango",
+      "name": "Osvaldo Pugliese — Nochero Soy",
+      "orchestra": "Osvaldo Pugliese",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Dramatic",
+      "axis1": 0,
+      "axis2": 2,
+      "songs": [
+        {
+          "id": "tango-047-s1",
+          "title": "Nochero Soy",
+          "order": 1,
+          "v": "moHqQCNki0Q",
+          "alts": [
+            "hvGdCoS6ocg",
+            "AlMtBKNk2u8",
+            "B4r7I5u9GU0"
+          ]
+        },
+        {
+          "id": "tango-047-s2",
+          "title": "Derecho Viejo",
+          "order": 2,
+          "v": "kpTZMy-Cgl4",
+          "alts": [
+            "bg5rgvsDN_s",
+            "zciL8C4G8IE",
+            "LsYnnmRGL60"
+          ]
+        },
+        {
+          "id": "tango-047-s3",
+          "title": "La Mariposa",
+          "order": 3,
+          "v": "EG31SnoNXag",
+          "alts": [
+            "VL2FIhtkVcw",
+            "GIjtyBpqQRI",
+            "Mcx6YEJY4NQ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-048",
+      "genre": "tango",
+      "name": "Osvaldo Pugliese — Tinta Roja",
+      "orchestra": "Osvaldo Pugliese",
+      "singer": "연주곡 (Instrumental)",
+      "note": "Golden Age Dramatic",
+      "axis1": 0,
+      "axis2": 2,
+      "songs": [
+        {
+          "id": "tango-048-s1",
+          "title": "Tinta Roja",
+          "order": 1,
+          "v": "7RZw-KWbSm8",
+          "alts": [
+            "7VjoD4mKS90",
+            "jskprV-VLy0",
+            "zhL_x4_KJN4"
+          ]
+        },
+        {
+          "id": "tango-048-s2",
+          "title": "A Los Amigos",
+          "order": 2,
+          "v": "ibQaoBDDqB8",
+          "alts": [
+            "5TCcJj188EM",
+            "TEjDhRlE1wc",
+            "fmDUTirfe5s"
+          ]
+        },
+        {
+          "id": "tango-048-s3",
+          "title": "El Andariego",
+          "order": 3,
+          "v": "2S26Le46OWk",
+          "alts": [
+            "PGsCeyDmSrA",
+            "77EobCjeMR4",
+            "dhExwHCzvWU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-049",
+      "genre": "tango",
+      "name": "믹스 탄다 (Transitional/New Tango)",
+      "orchestra": "혼합 (Carlos García 등)",
+      "singer": "-",
+      "note": "전환기/신탱고",
+      "axis1": 0,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-049-s1",
+          "title": "La Cumparsita — Carlos García y Tango All Stars",
+          "order": 1,
+          "v": "mjELOEb7Jyg",
+          "alts": [
+            "uGkgHiOXG3M",
+            "7g9wzjIXMRI",
+            "V1I5m0GfC8I"
+          ]
+        },
+        {
+          "id": "tango-049-s2",
+          "title": "Adiós Nonino — Carlos García y Tango All Stars",
+          "order": 2,
+          "v": "WUNurqqzJNk",
+          "alts": [
+            "5DdcxZyS5PI",
+            "_P91S6eKdjM",
+            "-0_v-VNi_Bo"
+          ]
+        },
+        {
+          "id": "tango-049-s3",
+          "title": "Verano Porteño — Raúl Garello",
+          "order": 3,
+          "v": "3QRms5XBKGQ",
+          "alts": [
+            "aWI0zdZBlR4",
+            "CSIR_biy7k4",
+            "srhKTpBbavo"
+          ]
+        },
+        {
+          "id": "tango-049-s4",
+          "title": "A Media Luz — Francini/Pontier",
+          "order": 4,
+          "v": "xY1x4GP0wFo",
+          "alts": [
+            "2iyWlRd2jfE",
+            "kTc2jJVNu00",
+            "N5uSdxpKdvM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-050",
+      "genre": "tango",
+      "name": "New York Tango Trio",
+      "orchestra": "New York Tango Trio",
+      "singer": "연주곡 (Instrumental)",
+      "note": "현대 편성",
+      "axis1": -1,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "tango-050-s1",
+          "title": "El Entrerriano",
+          "order": 1,
+          "v": "vHRDIr0-2xc",
+          "alts": [
+            "bQm9bZLzp10",
+            "ysIBAubwAI0",
+            "JnzgFkFrT9I"
+          ]
+        },
+        {
+          "id": "tango-050-s2",
+          "title": "9 de Julio",
+          "order": 2,
+          "v": "smKcoeTmmHM",
+          "alts": [
+            "39VrXGaKc3w",
+            "6stLgyiGhmU",
+            "jvxyfmzsDwM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tango-051",
+      "genre": "tango",
+      "name": "Orquesta Color Tango",
+      "orchestra": "Color Tango",
+      "singer": "-",
+      "note": "현대 댄스 오케스트라",
+      "axis1": -1,
+      "axis2": 1,
+      "songs": [
+        {
+          "id": "tango-051-s1",
+          "title": "A Evaristo Carriego",
+          "order": 1,
+          "v": "-ntdByfgwDQ",
+          "alts": [
+            "JPlBzzom2pw",
+            "MLvaZ2-MCUo",
+            "3a-g7cDU2x4"
+          ]
+        }
+      ]
+    }
+  ],
+  "milonga": [
+    {
+      "id": "milonga-001",
+      "genre": "milonga",
+      "name": "Pedro Laurenz — Milongas",
+      "orchestra": "Pedro Laurenz",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-001-s1",
+          "title": "Milonga Compadre",
+          "order": 1,
+          "v": "uH6dU_hMI1c",
+          "alts": [
+            "nSOMYhVv3C4",
+            "nVjmZwKxwJI",
+            "_9crrAiGXR0"
+          ]
+        },
+        {
+          "id": "milonga-001-s2",
+          "title": "Yo Soy de San Telmo",
+          "order": 2,
+          "v": "spn_8VoMTTw",
+          "alts": [
+            "nAn547SWTyM",
+            "DyOGPPL2oxQ",
+            "1KoYBqL9UwU"
+          ]
+        },
+        {
+          "id": "milonga-001-s3",
+          "title": "Milonga de Mis Amores",
+          "order": 3,
+          "v": "X0MdL97msSE",
+          "alts": [
+            "4ejqzY1j0tQ",
+            "4q_VRI-kGlI",
+            "bVVQM_I-6-Y"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-002",
+      "genre": "milonga",
+      "name": "Francisco Canaro — Milongas I",
+      "orchestra": "Francisco Canaro",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-002-s1",
+          "title": "Milonga Sentimental",
+          "order": 1,
+          "v": "kAQiyya9rsA",
+          "alts": [
+            "mykGiyqsE0I",
+            "SwzL75dEwRw",
+            "8wuLI6Lcifg"
+          ]
+        },
+        {
+          "id": "milonga-002-s2",
+          "title": "Silueta Porteña",
+          "order": 2,
+          "v": "wDBNHs0B77c",
+          "alts": [
+            "0UYBUEOoZs4",
+            "xKNWH_yrYXU",
+            "jCg6yqQzcwY"
+          ]
+        },
+        {
+          "id": "milonga-002-s3",
+          "title": "Cuando un Viejo Se Enamora",
+          "order": 3,
+          "v": "752w60MGK28",
+          "alts": [
+            "7b2DSn9uRCY",
+            "2UltR3kJepc",
+            "x1eBItJI5cw"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-003",
+      "genre": "milonga",
+      "name": "Francisco Canaro — Milongas II",
+      "orchestra": "Francisco Canaro",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-003-s1",
+          "title": "Reliquias Porteñas",
+          "order": 1,
+          "v": "pIWdY2OSjhQ",
+          "alts": [
+            "zPTjoQET3AM",
+            "XsTLd6HSZcQ",
+            "ma6DxaNS6Tc"
+          ]
+        },
+        {
+          "id": "milonga-003-s2",
+          "title": "Milonga Brava",
+          "order": 2,
+          "v": "ZngTl7rbsio",
+          "alts": [
+            "y0to-LLKO24",
+            "W4qKuRbsKB4",
+            "eFW9qET0KRA"
+          ]
+        },
+        {
+          "id": "milonga-003-s3",
+          "title": "No Hay Tierra Como La Mía",
+          "order": 3,
+          "v": "rSMOPspX2rM",
+          "alts": [
+            "e7KUJa7pCDA",
+            "1Pz-eUkadzM",
+            "V94i_WUYdGM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-004",
+      "genre": "milonga",
+      "name": "Miguel Caló — Milongas",
+      "orchestra": "Miguel Caló",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-004-s1",
+          "title": "Milonga Antigua",
+          "order": 1,
+          "v": "mpIAeexGByY",
+          "alts": [
+            "DXScJdZGj74",
+            "PUQG3uYG2Go",
+            "_gKCsf9duSM"
+          ]
+        },
+        {
+          "id": "milonga-004-s2",
+          "title": "Milonga Que Peina Canas",
+          "order": 2,
+          "v": "9TC5TI9HZZs",
+          "alts": [
+            "1ihraWFpvFQ",
+            "QJL_obGOamk",
+            "XWPOgdMyhck"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-005",
+      "genre": "milonga",
+      "name": "Rodolfo Biagi — Milongas",
+      "orchestra": "Rodolfo Biagi",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-005-s1",
+          "title": "Campo Afuera",
+          "order": 1,
+          "v": "6fK2MvrPUoA",
+          "alts": [
+            "gfBQb3rTjBo",
+            "XqY9LYZyr-8",
+            "yqckgVhWWQg"
+          ]
+        },
+        {
+          "id": "milonga-005-s2",
+          "title": "Cantando Se Van Las Penas",
+          "order": 2,
+          "v": "oIgzFX87EP0",
+          "alts": [
+            "DBTystUoN5c",
+            "oQQA5dXwbbc",
+            "iNjpQ1dXMVg"
+          ]
+        },
+        {
+          "id": "milonga-005-s3",
+          "title": "Flor de Montserrat",
+          "order": 3,
+          "v": "dTg6f5wwgAM",
+          "alts": [
+            "zMA_BuHYprc",
+            "-ciu9gY_k4w",
+            "m2jU4SVGpKU"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-006",
+      "genre": "milonga",
+      "name": "Juan D'Arienzo — Milongas I",
+      "orchestra": "Juan D'Arienzo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-006-s1",
+          "title": "La Puñalada",
+          "order": 1,
+          "v": "_BRAxgxwa8w",
+          "alts": [
+            "NQuY0BDUMMI",
+            "s3Po3UagiRM",
+            "1kD4gUlPhiQ"
+          ]
+        },
+        {
+          "id": "milonga-006-s2",
+          "title": "El Esquinazo",
+          "order": 2,
+          "v": "cJQ8A8gMeE8",
+          "alts": [
+            "NihBjSW3sKU",
+            "sAPOp9CJWEE",
+            "GQbFz8d6mlw"
+          ]
+        },
+        {
+          "id": "milonga-006-s3",
+          "title": "Milonga Vieja Milonga",
+          "order": 3,
+          "v": "0qJIBO89T6I",
+          "alts": [
+            "7B6T7vi6VLE",
+            "Qft1d0BIfNc",
+            "JtwZJJV4ADM"
+          ]
+        },
+        {
+          "id": "milonga-006-s4",
+          "title": "El Comandante",
+          "order": 4,
+          "v": "jQaNjBTOnSo",
+          "alts": [
+            "RUyLfwPJGZ8",
+            "7Fmc3TZEhFY",
+            "n379V6m8lvs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-007",
+      "genre": "milonga",
+      "name": "Juan D'Arienzo — Milongas II",
+      "orchestra": "Juan D'Arienzo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-007-s1",
+          "title": "Milonga Que Peina Canas",
+          "order": 1,
+          "v": "SzlMCxdznlY",
+          "alts": [
+            "Gk_hpXVbybE",
+            "fvGgAA34mX8",
+            "bmAOHg3f3Xk"
+          ]
+        },
+        {
+          "id": "milonga-007-s2",
+          "title": "El Temblor",
+          "order": 2,
+          "v": "DLn9xGVJMt4",
+          "alts": [
+            "rur_ybPnkMk",
+            "hNmm2MTHeuc",
+            "jiB-DzCYfes"
+          ]
+        },
+        {
+          "id": "milonga-007-s3",
+          "title": "Milonga Querida",
+          "order": 3,
+          "v": "WMOxYIJz6Gs",
+          "alts": [
+            "7YOVNF8DqeE",
+            "d1jLK2KSX58",
+            "hsXadxjM_GI"
+          ]
+        },
+        {
+          "id": "milonga-007-s4",
+          "title": "Milonga del Corazón",
+          "order": 4,
+          "v": "k1RFywiAB3A",
+          "alts": [
+            "v8OVqZSTAJw",
+            "lIFqn2KbKqg",
+            "2i44sT5hjO4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-008",
+      "genre": "milonga",
+      "name": "Juan D'Arienzo — Milongas III",
+      "orchestra": "Juan D'Arienzo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-008-s1",
+          "title": "La Espuela",
+          "order": 1,
+          "v": "8TnM8wdNB2Y",
+          "alts": [
+            "bJ_62Uj9IRM",
+            "YDW3f4rbBcM",
+            "z1CFSoV6sPs"
+          ]
+        },
+        {
+          "id": "milonga-008-s2",
+          "title": "Por Dos Caminos",
+          "order": 2,
+          "v": "cF3HitkZg4s",
+          "alts": [
+            "CGFRuM-zYts",
+            "pixKb3oUQms",
+            "NYUD9dzJ-Rk"
+          ]
+        },
+        {
+          "id": "milonga-008-s3",
+          "title": "El Paisanito",
+          "order": 3,
+          "v": "igtvBf3Fnh0",
+          "alts": [
+            "ZzpVvPKLhRY",
+            "7xvH1Ij8LPo",
+            "VrREpOTU-7w"
+          ]
+        },
+        {
+          "id": "milonga-008-s4",
+          "title": "Calandria Pampa",
+          "order": 4,
+          "v": "IFe0sTsDHgY",
+          "alts": [
+            "61mwHEEfgak",
+            "BLp43XO5nfc",
+            "41MoJWBSs5M"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-009",
+      "genre": "milonga",
+      "name": "Ricardo Tanturi con Alberto Castillo — Milongas",
+      "orchestra": "Ricardo Tanturi",
+      "singer": "Alberto Castillo",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-009-s1",
+          "title": "Mi Morocha",
+          "order": 1,
+          "v": "Q3FZN31mbXQ",
+          "alts": [
+            "vphB0ucPMks",
+            "364kdSBdFEE",
+            "bMiVICUlNKE"
+          ]
+        },
+        {
+          "id": "milonga-009-s2",
+          "title": "Así Es la Milonga",
+          "order": 2,
+          "v": "JNID3K0tO2E",
+          "alts": [
+            "50Z4Fi6d6Jc",
+            "06i4lIpJVnU",
+            "9y150mg48ko"
+          ]
+        },
+        {
+          "id": "milonga-009-s3",
+          "title": "Mozo Guapo",
+          "order": 3,
+          "v": "ih_3-oF8yDk",
+          "alts": [
+            "ttyCgEdK8us",
+            "eFa3qIDxFqw",
+            "XPc6EcM2BhM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-010",
+      "genre": "milonga",
+      "name": "Aníbal Troilo — Milongas",
+      "orchestra": "Aníbal Troilo",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-010-s1",
+          "title": "Ficha de Oro",
+          "order": 1,
+          "v": "PJ4aqE4NHVk",
+          "alts": [
+            "xqK0m1fQvOc",
+            "1ZuyIn9LjSM",
+            "L5MO6fOhkSI"
+          ]
+        },
+        {
+          "id": "milonga-010-s2",
+          "title": "Del Tiempo Guapo",
+          "order": 2,
+          "v": "io7nLy6CMn8",
+          "alts": [
+            "AyCMUo8uiIk",
+            "MZSQfZ6gFFE",
+            "kRL3KIInLhU"
+          ]
+        },
+        {
+          "id": "milonga-010-s3",
+          "title": "Mano Brava",
+          "order": 3,
+          "v": "kuGzbZ_yKeU",
+          "alts": [
+            "dMNwpY-VS54",
+            "maZ9zkCf61U",
+            "mmQYyspTyAI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milonga-011",
+      "genre": "milonga",
+      "name": "Carlos Di Sarli — Milongas",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "milonga-011-s1",
+          "title": "Rosa Morena",
+          "order": 1,
+          "v": "DZGHnXBX4MI",
+          "alts": [
+            "1x3M3MktoTs",
+            "CS4vLtQRLTk",
+            "jnq9nG398GI"
+          ]
+        },
+        {
+          "id": "milonga-011-s2",
+          "title": "La Mulateada",
+          "order": 2,
+          "v": "xHIxxBdcnwE",
+          "alts": [
+            "RO8rB8ZiziY",
+            "OTqUw34Y95U",
+            "bTsUmAHATgc"
+          ]
+        },
+        {
+          "id": "milonga-011-s3",
+          "title": "Pena Mulata",
+          "order": 3,
+          "v": "budl6GycHuM",
+          "alts": [
+            "uPC87E0SOK4",
+            "8JqwGUUe5Ng",
+            "FJyj9hAtop8"
+          ]
+        }
+      ]
+    }
+  ],
+  "vals": [
+    {
+      "id": "vals-001",
+      "genre": "vals",
+      "name": "Alfredo De Angelis — Valses",
+      "orchestra": "Alfredo De Angelis",
+      "singer": "-",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "vals-001-s1",
+          "title": "Pobre Flor",
+          "order": 1,
+          "v": "UjIYG95o0TQ",
+          "alts": [
+            "H58gfM3QuPI",
+            "IdUIuCha9NY",
+            "2rAHvVTg0UY"
+          ]
+        },
+        {
+          "id": "vals-001-s2",
+          "title": "Soñar Y Nada Más",
+          "order": 2,
+          "v": "cdACtXG7lAE",
+          "alts": [
+            "8DNw_fl4c3I",
+            "qmmqUhP6LiI",
+            "YqDQPifxozk"
+          ]
+        },
+        {
+          "id": "vals-001-s3",
+          "title": "Flores del Alma",
+          "order": 3,
+          "v": "PG6gXa7RD_M",
+          "alts": [
+            "ZqW2pL7DFlU",
+            "9XAv6oafEb8",
+            "Oinr7Y5Qz3A"
+          ]
+        },
+        {
+          "id": "vals-001-s4",
+          "title": "A Magaldi",
+          "order": 4,
+          "v": "Aie0momDlTQ",
+          "alts": [
+            "J-sXj7Y7NRY",
+            "uBgpVEd1ZcU",
+            "JH3tVE1LfyI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vals-002",
+      "genre": "vals",
+      "name": "Miguel Caló — Valses",
+      "orchestra": "Miguel Caló",
+      "singer": "-",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "vals-002-s1",
+          "title": "Bajo un Cielo de Estrellas",
+          "order": 1,
+          "v": "ZHN261As5C8",
+          "alts": [
+            "IvbodwwfoJ4",
+            "r4IEeV6nBrI",
+            "3F_Lfq8guqA"
+          ]
+        },
+        {
+          "id": "vals-002-s2",
+          "title": "Pedacito de Cielo",
+          "order": 2,
+          "v": "BXvJc4a98co",
+          "alts": [
+            "9N6NSckmR1c",
+            "a_U01mAGEIA",
+            "Zkv3KxIQH6M"
+          ]
+        },
+        {
+          "id": "vals-002-s3",
+          "title": "El Vals Soñador",
+          "order": 3,
+          "v": "A7ZynAeL7v8",
+          "alts": [
+            "tuWiPPmubFY",
+            "3z2X8foEEFQ",
+            "Ik4-fP9QunA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vals-003",
+      "genre": "vals",
+      "name": "Ricardo Tanturi con Alberto Castillo — Valses",
+      "orchestra": "Ricardo Tanturi",
+      "singer": "Alberto Castillo",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "vals-003-s1",
+          "title": "Con Los Amigos",
+          "order": 1,
+          "v": "_o-93erFzxg",
+          "alts": [
+            "A9ibsrdoYng",
+            "GX7a4Zg-ntg",
+            "jB2tMBGqY5U"
+          ]
+        },
+        {
+          "id": "vals-003-s2",
+          "title": "Mi Romance",
+          "order": 2,
+          "v": "BcNrVZlfmXg",
+          "alts": [
+            "xRB3QQFuJz0",
+            "JoqAreTAses",
+            "RoVpBa79g_M"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vals-004",
+      "genre": "vals",
+      "name": "Carlos Di Sarli — Valses (Rufino/Volpe)",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "Roberto Rufino / Alberto Volpe",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "vals-004-s1",
+          "title": "Cortando Camino (1941, Rufino)",
+          "order": 1,
+          "v": "7zuidzeqj4w",
+          "alts": [
+            "QbIOLAD4fDo",
+            "TwzXtK3wbOA",
+            "6qfHwBGX9wI"
+          ]
+        },
+        {
+          "id": "vals-004-s2",
+          "title": "Rosamel (1940, Rufino)",
+          "order": 2,
+          "v": "DsTZDikjuqM",
+          "alts": [
+            "Y9vVmkI8VAc",
+            "82VeaChv2HA",
+            "7cXSF4eZexA"
+          ]
+        },
+        {
+          "id": "vals-004-s3",
+          "title": "Ausencia (1940, Volpe)",
+          "order": 3,
+          "v": "ngjDoXgoDQ0",
+          "alts": [
+            "sEeWQw9AIoU",
+            "p7F0LgWdktU",
+            "a8hUYKsawh4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vals-005",
+      "genre": "vals",
+      "name": "Carlos Di Sarli — Valses (Podestá/Durán)",
+      "orchestra": "Carlos Di Sarli",
+      "singer": "Alberto Podestá / Jorge Durán",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "vals-005-s1",
+          "title": "De Vuelta (1947, Podestá)",
+          "order": 1,
+          "v": "sLbbSeBH1qw",
+          "alts": [
+            "EfLeQzeB36w",
+            "BabNHSYyhzM",
+            "PciXfDBqm2g"
+          ]
+        },
+        {
+          "id": "vals-005-s2",
+          "title": "Estampa Federal (1942, Podestá)",
+          "order": 2,
+          "v": "BDgwldRRFZ8",
+          "alts": [
+            "bmpGVoF-T6A",
+            "4y2n3cNLXKg",
+            "awjQrdAa7gQ"
+          ]
+        },
+        {
+          "id": "vals-005-s3",
+          "title": "Acuérdate de Mí (1946, Durán)",
+          "order": 3,
+          "v": "ldGUfttsU6o",
+          "alts": [
+            "fTbjgidYuAg",
+            "ZcIo3kaT9BA",
+            "O_NaHwSzNG8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vals-006",
+      "genre": "vals",
+      "name": "Rodolfo Biagi — Valses",
+      "orchestra": "Rodolfo Biagi",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "vals-006-s1",
+          "title": "Por Un Beso de Amor",
+          "order": 1,
+          "v": "FeQdIuDcTUI",
+          "alts": [
+            "Yc4f9qhDuzs",
+            "cLZEY1QLrQk",
+            "HslkTrseGes"
+          ]
+        },
+        {
+          "id": "vals-006-s2",
+          "title": "Cuatro Palabras",
+          "order": 2,
+          "v": "orRIANnnais",
+          "alts": [
+            "SqWrm86FEKM",
+            "kqllRgeLQG0",
+            "48XMJsMgMUI"
+          ]
+        },
+        {
+          "id": "vals-006-s3",
+          "title": "Lágrimas y Sonrisas",
+          "order": 3,
+          "v": "baECC_CTcLs",
+          "alts": [
+            "W0ncFw1iK3s",
+            "1DHjiKowzvo",
+            "PEbLXLrv4vw"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vals-007",
+      "genre": "vals",
+      "name": "Dan Díaz & Tango Camerata — Valses (현대)",
+      "orchestra": "Dan Díaz y Tango Camerata",
+      "singer": "연주곡 (Instrumental)",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "vals-007-s1",
+          "title": "Palomita Blanca",
+          "order": 1,
+          "v": "GPsRG3_R4qk",
+          "alts": [
+            "IUmgJw2h-Dw",
+            "MJzAmyzolI8",
+            "Fj819vvPG6I"
+          ]
+        },
+        {
+          "id": "vals-007-s2",
+          "title": "Romance de Barrio",
+          "order": 2,
+          "v": "6kewJPtsr2U",
+          "alts": [
+            "kMAth1GKxMA",
+            "8tuujRbAe5M",
+            "1-DPVZRbuUU"
+          ]
+        },
+        {
+          "id": "vals-007-s3",
+          "title": "Desde el Alma",
+          "order": 3,
+          "v": "MskIx1J62To",
+          "alts": [
+            "yTzUKZUm1Y8",
+            "y6GNTtRJm2c",
+            "uTwv3vkvWEQ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vals-008",
+      "genre": "vals",
+      "name": "믹스 탄다 (Valses)",
+      "orchestra": "혼합",
+      "singer": "-",
+      "note": "",
+      "axis1": 0,
+      "axis2": 0,
+      "songs": [
+        {
+          "id": "vals-008-s1",
+          "title": "Palomita Blanca — Héctor Varela",
+          "order": 1,
+          "v": "aUKthFRYm-8",
+          "alts": [
+            "GQa9-AjSfSM",
+            "AOgLbcCaxLY",
+            "e8DgQe2sEsg"
+          ]
+        },
+        {
+          "id": "vals-008-s2",
+          "title": "Corazón de Oro — Lalo Schifrin Orquesta",
+          "order": 2,
+          "v": "JBAV2rU7AJU",
+          "alts": [
+            "qTPgaWRh_Uc",
+            "7SPd9VA8Qp4",
+            "5SxqRNizBJ8"
+          ]
+        },
+        {
+          "id": "vals-008-s3",
+          "title": "Desde el Alma — Osvaldo Pugliese",
+          "order": 3,
+          "v": "QQ2dNrybAuU",
+          "alts": [
+            "5kh5PBLiZ5Q",
+            "QYU_uD3CUNo",
+            "T8rnuZfnRmE"
+          ]
+        },
+        {
+          "id": "vals-008-s4",
+          "title": "Ilusión de Mi Vida — Color Tango",
+          "order": 4,
+          "v": "TnhMHmU2r54",
+          "alts": [
+            "6wALiMrle8s",
+            "D1gBSKUDErg",
+            "Wfv6PtB7iMc"
+          ]
+        }
+      ]
+    }
+  ],
+  "cumparsita": [
+    {
+      "id": "cump-001",
+      "style": "밀롱게로 스타일",
+      "artist": "Francisco Lomuto"
+    },
+    {
+      "id": "cump-002",
+      "style": "밀롱게로 스타일",
+      "artist": "Ángel D'Agostino y Ángel Vargas"
+    },
+    {
+      "id": "cump-003",
+      "style": "밀롱게로 스타일",
+      "artist": "Juan D'Arienzo"
+    },
+    {
+      "id": "cump-004",
+      "style": "밀롱게로 스타일",
+      "artist": "Rodolfo Biagi con Jorge Ortiz"
+    },
+    {
+      "id": "cump-005",
+      "style": "밀롱게로 스타일",
+      "artist": "Francisco Canaro"
+    },
+    {
+      "id": "cump-006",
+      "style": "살롱 스타일",
+      "artist": "Carlos Di Sarli"
+    },
+    {
+      "id": "cump-007",
+      "style": "살롱 스타일",
+      "artist": "Alfredo De Angelis"
+    },
+    {
+      "id": "cump-008",
+      "style": "살롱 스타일",
+      "artist": "Carlos García"
+    },
+    {
+      "id": "cump-009",
+      "style": "살롱 스타일",
+      "artist": "Tango X 2 Orquesta"
+    },
+    {
+      "id": "cump-010",
+      "style": "살롱 스타일",
+      "artist": "Francini/Pontier"
+    },
+    {
+      "id": "cump-011",
+      "style": "살롱 스타일",
+      "artist": "Los Porteños"
+    },
+    {
+      "id": "cump-012",
+      "style": "기타/재즈 편곡",
+      "artist": "Quinteto Francisco Canaro"
+    },
+    {
+      "id": "cump-013",
+      "style": "기타/재즈 편곡",
+      "artist": "New York Buenos Aires Connection"
+    }
+  ]
+}

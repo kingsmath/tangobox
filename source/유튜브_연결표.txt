@@ -1,0 +1,715 @@
+[곡 - 유튜브 영상 연결표]
+유튜브 검색 결과에서 곡명·오케스트라가 일치하는 상위 영상을 골라 넣었습니다.
+바꾸고 싶으면 앱의 [곡목록] 탭에서 주소를 붙여넣으면 됩니다.
+
+■ 탱고
+  · Los Tubatango — Los Tubatango
+      Rodríguez Peña
+        -> RODRIGUEZ PENA - LOS TUBATANGO - 0000 - TANGO STRUMENTALE / auditetango / 2:40
+           https://youtu.be/8V7Yx7pBBVs
+      Zorro Gris
+        -> Zorro Gris / La Tubatango - Topic / 2:01
+           https://youtu.be/r_gBxQiotVk
+  · Orquesta Típica Victor — Orquesta Típica Victor
+      Re Fa Si
+        -> Orquesta Típica Victor - Re Fa Si (1927) / Overjazz / 3:19
+           https://youtu.be/cIfyIHsH4zM
+      Che Papusa Oí
+        -> Orquesta Típica Victor - Che Papusa Oi (1927) / Overjazz / 2:40
+           https://youtu.be/a6maPegvWwU
+  · Adolfo Carabelli — Adolfo Carabelli
+      Mi Refugio
+        -> Adolfo Carabelli - Alberto Gómez - Mi Refugio,  1931 / TangoDJ Nemanja / 3:23
+           https://youtu.be/TJasG7PNzTA
+      El Cabure
+        -> Adolfo Carabelli   El caburé   1932 / La Guardia Digital Radio Tango hi res / 2:27
+           https://youtu.be/aCncurkryVw
+      Cuatro Palabras
+        -> Adolfo Carabelli Y Charlo   Cuatro palabras   1933 / La Guardia Digital Radio Tango hi res / 2:29
+           https://youtu.be/cU3L4y7Z_JA
+  · Julio De Caro — Julio De Caro — Golden Age
+      El Monito
+        -> JULIO DE CARO - EL MONITO - TANGO / Cantando Tangos / 2:56
+           https://youtu.be/x-yEykRs3a8
+      Derecho Viejo
+        -> Julio De Caro Derecho viejo 1926 / La Guardia Digital Radio Tango hi res / 2:40
+           https://youtu.be/MiRG5Vao2vk
+  · Osvaldo Fresedo — Osvaldo Fresedo — Tigre Viejo
+      Derecho Viejo (1941)
+        -> Osvaldo Fresedo - Derecho Viejo / SC Entertainment / 2:26
+           https://youtu.be/vwgPJjPd9NE
+      Tigre Viejo
+        -> OSVALDO FRESEDO - TIGRE VIEJO - TANGO - 1934 / Cantando Tangos / 3:01
+           https://youtu.be/RmipABjcDp8
+  · Francisco Canaro — Francisco Canaro y su Quinteto Pirincho
+      Viento en Popa
+        -> Francisco Canaro - Viento en popa - Tango - 1937 / argentinatangodj / 3:07
+           https://youtu.be/7bo5eAICkds
+      Don Esteban
+        -> Francisco Canaro - Don Esteban (1938) / Overjazz / 3:04
+           https://youtu.be/bMPCWTCAgTY
+      Champagne Tango
+        -> Champagne Tango / FRANCISCO CANARO - Topic / 2:33
+           https://youtu.be/iQTru5O5Mzw
+  · Francisco Canaro — Francisco Canaro — La Melodía de Nuestro Adiós
+      La Melodía de Nuestro Adiós
+        -> FRANCISCO CANARO   - ALBERTO ARENAS  - LA MELODIA DE NUESTRO ADIOS  - TANGO / Cantando Tangos / 6:25
+           https://youtu.be/1rXD-OAQVNM
+  · 혼합 — 믹스 탄다 (Canaro/Caló/Fresedo/Lomuto)
+      La Melodía de Nuestro Adiós — Canaro
+        -> FRANCISCO CANARO   - ALBERTO ARENAS  - LA MELODIA DE NUESTRO ADIOS  - TANGO / Cantando Tangos / 6:25
+           https://youtu.be/1rXD-OAQVNM
+      Yo Soy El Tango — Caló
+        -> Miguel Calò Y Alberto Podestà   Yo soy el tango   1941 / La Guardia Digital Radio Tango hi res / 2:50
+           https://youtu.be/UxWwWth4m24
+      El Once — Fresedo
+        -> "El once" Osvaldo Fresedo / Cristian Asato / 2:58
+           https://youtu.be/jsn6VYxAeYo
+      Mano a Mano — Lomuto
+        -> Francisco Lomuto Y Jorge Omar   Mano a Mano   1936 / La Guardia Digital Radio Tango hi res / 3:16
+           https://youtu.be/gNfhQT-EIL8
+  · Juan D'Arienzo — Juan D'Arienzo — El Flete
+      El Flete
+        -> El Flete / Juan Darienzo / 2:51
+           https://youtu.be/BC4L1C9y4Dk
+      Pensalo Bien
+        -> Pensalo bien / Juan Darienzo / 2:18
+           https://youtu.be/cKX1KIebEuY
+      Unión Cívica
+        -> Union Civica / Juan Darienzo / 2:26
+           https://youtu.be/H8vsB4xyWws
+      Canaro en Paris
+        -> Canaro En Paris / Juan Darienzo / 2:36
+           https://youtu.be/x-cIXG7yAWE
+  · Juan D'Arienzo — Juan D'Arienzo — El Rey del Compás
+      Don Esteban
+        -> Juan D'Arienzo - 1936 - Don Esteban / DJ TORO / 3:23
+           https://youtu.be/K15Wq-WgK8I
+      El Irresistible
+        -> Juan D'Arienzo - 1936 - El Irresistible / DJ TORO / 2:25
+           https://youtu.be/hgNSPp8XT3I
+      La Morocha
+        -> La morocha / Juan Darienzo / 2:29
+           https://youtu.be/RGOmJZCCTWE
+  · Juan D'Arienzo — Juan D'Arienzo — Felicia
+      El Internado
+        -> El Internado / Juan Darienzo / 2:28
+           https://youtu.be/rkrjjM-_j08
+      Viejo Smoking
+        -> Viejo Smoking / Juan Darienzo / 2:49
+           https://youtu.be/D-HDJeuOwhU
+  · Juan D'Arienzo — Juan D'Arienzo — Vol. 21
+      El Pollo Ricardo
+        -> El Pollo Ricardo / Juan Darienzo / 3:00
+           https://youtu.be/_mWWz0M2m20
+      Che Negrito
+        -> Che Negrito / Juan Darienzo / 2:30
+           https://youtu.be/uIQ2YvFZKIs
+  · Juan D'Arienzo — Juan D'Arienzo con Mario Bustos
+      Justo El 31
+        -> JUAN D'ARIENZO - MARIO BUSTOS - JUSTO EL 31 - TANGO - 1958 / Cantando Tangos / 2:37
+           https://youtu.be/S9bOYIXj8Yg
+      Si Soy Así
+        -> Juan D'arienzo - 1957 - Bustos - Si soy así / DJ TORO / 2:41
+           https://youtu.be/tEKpiHn3b1c
+      No Te Quiero Más
+        -> Juan D'arienzo - 1957 - Bustos - No te quiero más / DJ TORO / 2:28
+           https://youtu.be/Gz7XSZxzlyA
+  · Juan D'Arienzo — Orquesta Juan D'Arienzo
+      Derecho Viejo
+        -> Derecho Viejo / Juan Darienzo / 2:40
+           https://youtu.be/dYMmsJZMfCE
+      Organito de la Tarde
+        -> Juan D'arienzo - 1967 - Organito de la tarde / DJ TORO / 2:22
+           https://youtu.be/3qGIn4Tvsjo
+      Don Juan
+        -> Juan D'Arienzo - 1936 - Don Juan / DJ TORO / 2:31
+           https://youtu.be/PnOti9EWwAQ
+  · Rodolfo Biagi — Rodolfo Biagi — Campo Afuera
+      La Maleva
+        -> ORQUESTA TIPICA RODOLFO BIAGI - LA MALEVA - TANGO - 1939 / Cantando Tangos / 2:37
+           https://youtu.be/OZ4t74hXH2M
+      Unión Cívica
+        -> UNION CIVICA  -  RODOLFO BIAGI / radiotangorosario / 2:30
+           https://youtu.be/r1oysxbfjG0
+      A Mí No Me Interesa
+        -> A MI NO ME INTERESA- RODOLFO BIAGI- ANDRES FALGAS / sportifabio2 / 2:40
+           https://youtu.be/SSIrnVnnaLQ
+  · Rodolfo Biagi — Rodolfo Biagi con Jorge Ortiz
+      Guapo y Varón
+        -> RODOLFO BIAGI JORGE ORTIZ - GUAPO Y VARÓN - TANGO - 1940 (A MANUEL ROMERO) / Cantando Tangos / 7:32
+           https://youtu.be/F3OcT9Bc-2w
+      Señor, Señor
+        -> Rodolfo Biagi - Jorge Ortiz - Señor, señor (1943) / DonAgucho / 2:53
+           https://youtu.be/7Wcgm8sr-qA
+      Pájaro Ciego
+        -> Rodolfo Biagi - 1941 - Ortiz - Pajaro ciego / DJ TORO / 3:24
+           https://youtu.be/ObS1lzHM03U
+  · Rodolfo Biagi — Rodolfo Biagi con Alberto Amor
+      Si La Llegaran A Ver
+        -> Rodolfo Biagi - 1943 - Alberto Amor - Si la llegaran a ver / DJ TORO / 2:32
+           https://youtu.be/gI8sCZIjMrc
+      Tus Labios Me Dirán
+        -> Tus labios me dirán / Rodolfo Biagi - Topic / 3:04
+           https://youtu.be/QyVg92xd_SQ
+      Seamos Amigos
+        -> SEAMOS AMIGOS-RODOLFO BIAGI-ALBERTO AMOR / sportifabio2 / 2:34
+           https://youtu.be/L880jSA5BXA
+  · Enrique Rodríguez — Enrique Rodríguez con Flores y Moreno
+      Son Cosas del Bandoneón
+        -> ENRIQUE RODRIGUEZ - ROBERTO CHATO FLORES - SON COSAS DEL BANDONEON - TANGO - 1939 / Cantando Tangos / 2:51
+           https://youtu.be/NvF0MFo9nec
+      A Media Luz
+        -> Enrique Rodriguez Y Armando Moreno   A Media Luz   1940 / La Guardia Digital Radio Tango hi res / 2:10
+           https://youtu.be/z9Ehj9NhdW4
+      Cómo Se Pianta la Vida
+        -> ENRIQUE RODRIGUEZ - ARMANDO MORENO - COMO SE PIANTA LA VIDA - TANGO - 1940 / Cantando Tangos / 2:29
+           https://youtu.be/k71V2cIRTWE
+      En la Buena y en la Mala
+        -> EN LA BUENA Y EN LA MALA - ENRIQUE RODRIGUEZ - ARMANDO MORENO - 1940 - TANGO CANTATO / auditetango / 2:24
+           https://youtu.be/3qYlWQZbjeg
+  · Aníbal Troilo — Aníbal Troilo — Pichuco
+      Milongueando en el 40
+        -> MILONGUEANDO EN EL 40 - ANIBAL TROILO / tangonostalgias / 2:35
+           https://youtu.be/ZRQLVTDDKUc
+      Cordón de Oro
+        -> ORQUESTA TIPICA ANIBAL TROILO - CORDON DE ORO - TANGO - 1941 / Cantando Tangos / 2:24
+           https://youtu.be/887c7Y0C4zk
+  · Aníbal Troilo — Aníbal Troilo con Francisco Fiorentino — Tinta Roja
+      Tinta Roja
+        -> Anibal Troilo - Francisco Fiorentino - Tinta roja / jcptango / 3:01
+           https://youtu.be/iUWlohZCYao
+      El Bulín de la Calle Ayacucho
+        -> EL BULIN DE LA CALLE AYACUCHO -  TROILO FIORENTINO / radiotangorosario / 2:31
+           https://youtu.be/4wH4I_1CMX8
+      Toda Mi Vida
+        -> Toda mi vida - Francisco Fiorentino; "El Pichuco"  Anibal Troilo - Bandoneon Tango / Adrian / 2:59
+           https://youtu.be/y2gg4FxpeZI
+  · Ricardo Tanturi — Ricardo Tanturi con Alberto Castillo
+      Ese Sos Vos
+        -> Ricardo Tanturi & Alberto Castillo - Ese sos vos (1941) / Overjazz / 2:38
+           https://youtu.be/1UH1iS-BLQQ
+      Una Noche de Garufa (Inst.)
+        -> Una noche de garufa / Ricardo Tanturi - Topic / 2:25
+           https://youtu.be/Qd9QPg_Kf1w
+      Recuerdo Malevo
+        -> Alberto Castillo - Ricardo Tanturi - Recuerdo malevo / jcptango / 2:32
+           https://youtu.be/baQSOiCKL2Y
+      Cuatro Compases
+        -> RICARDO TANTURI - ALBERTO CASTILLO - CUATRO COMPASES - TANGO - 1942 / Cantando Tangos / 2:26
+           https://youtu.be/YJOGPUYmN9g
+  · Miguel Caló — Miguel Caló — Sans Souci
+      Sans Souci
+        -> Miguel Caló - Sans Souci / Alejandro Rodriguez - acringen - / 3:13
+           https://youtu.be/twdpZFJI57s
+      Lejos de Buenos Aires
+        -> Lejos de Buenos Aires- Orq. Miguel Calo con Raul Beron / Punto y Branca's Channel / 2:50
+           https://youtu.be/DBaJOTGWBsg
+      La Cantina
+        -> La Cantina / Miguel Caló - Topic / 3:29
+           https://youtu.be/6bmiUPBLhDo
+      Yo Soy el Tango
+        -> Miguel Calò Y Alberto Podestà   Yo soy el tango   1941 / La Guardia Digital Radio Tango hi res / 2:50
+           https://youtu.be/UxWwWth4m24
+  · Miguel Caló — Miguel Caló — Stock Privado
+      Tarde Gris
+        -> TARDE GRIS - ( CALO IRIARTE) / radiotangorosario / 3:02
+           https://youtu.be/niH_GGKPOoQ
+      La Maleva
+        -> La Maleva / Miguel Caló - Topic / 2:48
+           https://youtu.be/_XFIGSN5mms
+  · Pedro Laurenz — Pedro Laurenz
+      De Puro Guapo
+        -> PEDRO LAURENZ - JUAN CARLOS CASAS - DE PURO GUAPO / NO ME EXTRAÑA - TANGOS - 1940 / Cantando Tangos / 5:30
+           https://youtu.be/5bDd7LOZDCE
+      Orgullo Criollo
+        -> PEDRO LAURENZ - ORGULLO CRIOLLO - TANGO - 1941 / Cantando Tangos / 2:59
+           https://youtu.be/D2EOEqxO3SM
+      Nunca Tuvo Novio
+        -> Nunca Tuvo Novio / Pedro Laurenz - Topic / 3:14
+           https://youtu.be/zQiFICtCIN0
+  · Ángel D'Agostino — Ángel D'Agostino y Ángel Vargas — Hotel Victoria
+      A Pan y Agua
+        -> ANGEL VARGAS "A Pan y Agua"[HQ] / Cachoel22 / 3:18
+           https://youtu.be/UzJ_ylY78z4
+      Esta Noche en Buenos Aires
+        -> Angel Vargas y Angel D´Agostino "Esta noche en Buenos Aires" / MrTanguerodeley / 2:41
+           https://youtu.be/AMmDKBQPF2I
+      Mano Blanca
+        -> Tango "Manoblanca", por la Orquesta Típica Ángel D'Agostino, canta Ángel Vargas / argentinatangodj / 3:04
+           https://youtu.be/fwFe4K5l6UY
+      Hotel Victoria
+        -> Angel D'Agostino - 1945 - Angel Vargas - Hotel Victoria / DJ TORO / 2:38
+           https://youtu.be/naS9GyQi71M
+  · Ángel D'Agostino — Ángel D'Agostino y Ángel Vargas — Pero Yo Sé
+      Pero Yo Sé
+        -> Angel D'Agostino Y Angel Vargas   Pero Yo Se   1942 / La Guardia Digital Radio Tango hi res / 2:45
+           https://youtu.be/Ui6BaKthnuo
+      Una Pena
+        -> ANGEL D'AGOSTINO - ANGEL VARGAS - UNA PENA - TANGO - 1941 / Cantando Tangos / 2:56
+           https://youtu.be/NHH44U5eQts
+      Mi Viejo Barrio
+        -> ANGEL D'AGOSTINO - ANGEL VARGAS - MI VIEJO BARRIO - TANGO - 1944 / Cantando Tangos / 2:47
+           https://youtu.be/Vd41F9yN6FA
+  · Ángel D'Agostino — Ángel D'Agostino y Ángel Vargas — Café Domínguez
+      Café Domínguez
+        -> Café Domínguez - Ángel D'Agostino / Pablo Stafforini / 3:00
+           https://youtu.be/46uIf2VZZ2M
+      Me Llaman Tango
+        -> Angel D'Agostino Y Angel Vargas   Me llaman tango   1943 / La Guardia Digital Radio Tango hi res / 2:48
+           https://youtu.be/YmFtX6FQqTc
+      Tomo y Obligo
+        -> Angel D'Agostino Y Angel Vargas   Tomo y Obligo   1943 / La Guardia Digital Radio Tango hi res / 2:58
+           https://youtu.be/7NkcReSq8Cw
+      El Aristócrata
+        -> Angel Vargas - Angel D'agostino   -Shusheta- (El Aristócrata) / El Coleccionista / 2:46
+           https://youtu.be/musBjtTJuCc
+  · Carlos Di Sarli — Carlos Di Sarli — Shusheta
+      El Recodo
+        -> Carlos Di Sarli   El Recodo   1941 / La Guardia Digital Radio Tango hi res / 2:23
+           https://youtu.be/cC1ardiuEr8
+      La Cachila
+        -> Carlos Di Sarli - 1952 - La cachila / DJ TORO / 3:11
+           https://youtu.be/7-4AS7XkCog
+      La Torcacita
+        -> Carlos Di Sarli - 1941 - La torcacita / DJ TORO / 2:42
+           https://youtu.be/--V71_4mbXE
+  · Carlos Di Sarli — Carlos Di Sarli — Milonguero Viejo
+      A La Gran Muñeca
+        -> A La Gran Muñeca (2ª Versión) / Sexteto Carlos Di Sarli - Topic / 2:44
+           https://youtu.be/lgWBrg5aoAs
+      El Cabure
+        -> Natalia Hills & Ernesto Borgonovo - El Cabure - Carlos Di Sarli / El Porteño / 3:03
+           https://youtu.be/zk6GqbWkl3Q
+      El Once
+        -> El Once (2ª Versión) / Sexteto Carlos Di Sarli - Topic / 2:46
+           https://youtu.be/1xElpSHoZo8
+      Milonguero Viejo
+        -> Milonguero Viejo (Di Sarli) Claudia Cortes y Martu Salem. En lo de Balmaceda 4ene24 (4/6) / Tango por y para vos / 3:04
+           https://youtu.be/CJLolDfNpGw
+  · Carlos Di Sarli — Carlos Di Sarli — El Choclo
+      La Morocha
+        -> Carlos Di Sarli-La Morocha / flywerasew / 2:42
+           https://youtu.be/gAoQMrKCuKg
+      Duelo Criollo
+        -> DUELO CRIOLLO - CARLOS DI SARLI - MARIO POMAR - 1953 - TANGO CANTATO / auditetango / 2:23
+           https://youtu.be/j4wtgmy-RLI
+      El Choclo
+        -> Carlos Di Sarli - 1954 - El choclo / DJ TORO / 2:49
+           https://youtu.be/EDxJnrkKLZc
+      Mi Refugio
+        -> MI REFUGIO -  CARLOS DI SARLI / radiotangorosario / 2:52
+           https://youtu.be/QC38Qghv4iI
+  · Carlos Di Sarli — Carlos Di Sarli — Don Juan
+      Don Juan
+        -> Carlos Di Sarli - 1955 - Don Juan / DJ TORO / 2:51
+           https://youtu.be/UFLeCBgpkLI
+      Tinta Verde
+        -> Carlos Di Sarli - 1953 - Tinta verde / DJ TORO / 2:21
+           https://youtu.be/hO6FQ2SHqd0
+      Comme Il Faut
+        -> Comme il Faut. Carlos Di Sarli / poetas84 / 2:34
+           https://youtu.be/-c4v0Cu6t3E
+  · Carlos Di Sarli — Carlos Di Sarli — El Ingeniero
+      Organito de la Tarde
+        -> Carlos Di Sarli - Organito de la tarde - Tango / argentinatangodj / 2:48
+           https://youtu.be/iYx1Jk3qQkM
+      Champagne Tango
+        -> DI SARLI Champagne Tango / Rafael Bueno / 2:50
+           https://youtu.be/TTlDwrLpp1A
+      El Pollo Ricardo
+        -> ORQUESTA TIPICA CARLOS DI SARLI - EL POLLO RICARDO - TANGO - 1951 / Cantando Tangos / 2:28
+           https://youtu.be/XoSkVgQaBlQ
+      El Ingeniero
+        -> Carlos Di Sarli -  🎵 El Ingeniero - Michael El Gato Nadtochi & Elvira Lambo / The Art Of Tango / 3:42
+           https://youtu.be/JYj5E8LGyTc
+  · Carlos Di Sarli — Carlos Di Sarli — Bahía Blanca
+      Bahía Blanca
+        -> Bahia Blanca - Carlos Di Sarli - Tango Clásico / Everything Tango / 2:52
+           https://youtu.be/dqFWz9_uqe0
+      El Pollito
+        -> DI SARLI, El pollito / Rafael Bueno / 3:24
+           https://youtu.be/7etXQuAsfy8
+      El Amanecer
+        -> Carlos Di Sarli - El Amanecer / jcptango / 2:27
+           https://youtu.be/-7-Oz1o0wo8
+      El Once
+        -> El Once (2ª Versión) / Sexteto Carlos Di Sarli - Topic / 2:46
+           https://youtu.be/1xElpSHoZo8
+  · Aníbal Troilo — Aníbal Troilo — Quejas de Bandoneón
+      Quejas de Bandoneón
+        -> Anibal Troilo - Quejas de bandoneón / SC Entertainment / 2:39
+           https://youtu.be/h7ZHEfMvbB0
+      El Marne
+        -> ANIBAL TROILO - El Marne, tango (Eduardo Arolas) - TK S-5101-B (228) - 1952 / radiotelefonia / 3:03
+           https://youtu.be/1J4Bkr38ZDY
+      El Pollo Ricardo
+        -> EL POLLO RICARDO - ANIBAL TROILO / radiotangorosario / 2:36
+           https://youtu.be/a6mu0fOQMl8
+      Don Juan
+        -> Anibal Troilo - Don Juan / DyDMusicaArgentina / 2:54
+           https://youtu.be/OLIOy_pNNnU
+  · Miguel Caló — Miguel Caló con Raúl Berón
+      Al Compás del Corazón
+        -> MIGUEL CALÓ - RAÚL BERÓN - AL COMPAS DEL CORAZÓN (LATE UN CORAZON) - TANGO - 1942 / Cantando Tangos / 2:45
+           https://youtu.be/Ezwjh59scIk
+      Qué Te Importa Que Te Llore
+        -> MIGUEL CALÓ -  RAÚL BERÓN  - QUE TE IMPORTA QUE TE LLORE  - TANGO / Cantando Tangos / 2:34
+           https://youtu.be/-_jWg6L2bAk
+      Tristezas de la Calle Corrientes
+        -> Tristezas de la Calle Corrientes / Miguel Caló - Topic / 2:45
+           https://youtu.be/TbTo1r7AATo
+  · Aníbal Troilo — Aníbal Troilo con Francisco Fiorentino — Malena
+      En Esta Tarde Gris
+        -> ANIBAL TROILO Y ROBERTO FIORENTINO - EN ESTA TARDE GRIS / regallo8764 / 3:17
+           https://youtu.be/5QhfWRPTToA
+      Sencillo y Compadre
+        -> ANIBAL TROILO - FRANCISCO FIORENTINO - SENCILLO Y COMPADRE - TANGO - 1941 / Cantando Tangos / 2:59
+           https://youtu.be/zA9wTczn0H4
+      Pájaro Ciego
+        -> Anibal Troilo - Francisco Fiorentino - Discografía. 07. Pájaro ciego. c/Amadeo Mandarino. 28/05/1941 / Alejandro Rodriguez - acringen - / 3:10
+           https://youtu.be/1OzpWGMLL2E
+  · Carlos Di Sarli — Carlos Di Sarli — El Señor del Tango
+      Porteño y Bailarín
+        -> Carlos Di Sarli - Jorge Durán - Porteño y Bailarín / jcptango / 3:05
+           https://youtu.be/Zso87gLe87U
+      Un Tango y Nada Más
+        -> CARLOS DI SARLI - JORGE DURÁN - UN TANGO Y NADA MAS / CON ALMA Y VIDA - 1945 / Cantando Tangos / 6:00
+           https://youtu.be/snkgat-Ny0k
+      Vieja Luna
+        -> Carlos Di Sarli - Vieja Luna - Tango / argentinatangodj / 2:52
+           https://youtu.be/18FPhqxMJPQ
+  · Francisco Canaro — Francisco Canaro — Uno
+      Nido Gaucho
+        -> Nido Gaucho (Remasterizado) / FRANCISCO CANARO - Topic / 2:58
+           https://youtu.be/yN-pDHQH1fs
+      Como Dos Extraños
+        -> Como Dos Extraños (Remasterizado) / FRANCISCO CANARO - Topic / 2:33
+           https://youtu.be/kCZWCT17Xrg
+      Cada Vez Que Me Recuerdes
+        -> Cada Vez Que Me Recuerdes (Remasterizado) / FRANCISCO CANARO - Topic / 2:36
+           https://youtu.be/szxaKQb8c1Y
+  · Osvaldo Fresedo — Osvaldo Fresedo con Roberto Ray — Vida Mía
+      Vida Mía
+        -> VIDA MIA - OSVALDO FRESEDO - ROBERTO RAY - 1933 - TANGO CANTATO / auditetango / 3:23
+           https://youtu.be/pP-ddrQ_8lg
+      Niebla del Riachuelo
+        -> Osvaldo Fresedo Y Roberto Ray   Niebla del Riachuelo   1937 / La Guardia Digital Radio Tango hi res / 2:25
+           https://youtu.be/-jOWM-vjvQg
+  · Ricardo Tanturi — Ricardo Tanturi con Enrique Campos
+      Muchachos Comienza la Ronda
+        -> RICARDO TANTURI - ENRIQUE CAMPOS - MUCHACHOS COMIENZA LA RONDA - TANGO -  1943 / Cantando Tangos / 2:42
+           https://youtu.be/yhZjxxbfAfk
+      Así Se Canta
+        -> RICARDO TANTURI - ENRIQUE CAMPOS - ASI SE CANTA - TANGO - 1943 / Cantando Tangos / 3:09
+           https://youtu.be/zTCAru4I1ts
+      Una Emoción
+        -> Una emocion / Ricardo Tanturi y Enrique Campos - Topic / 2:39
+           https://youtu.be/FGhmvsJbWxE
+  · Lucio Demare — Lucio Demare con Roberto Arrieta
+      Al Compás de un Tango
+        -> Al Compás de un Tango / Lucio Demare - Topic / 3:12
+           https://youtu.be/RwdAlMVAIiI
+      Canción de Rango
+        -> CANCION DE RANGO -  DEMARE ARRIETA / radiotangorosario / 3:05
+           https://youtu.be/9IJkAyIXjl8
+      Tango Guapo
+        -> Lucio Demare Y Roberto Arrieta   Tango Guapo   1942 / La Guardia Digital Radio Tango hi res / 3:03
+           https://youtu.be/2EdnpAkQeVI
+  · Alfredo De Angelis — Alfredo De Angelis — Adiós Marinero
+      Pura Maña
+        -> Alfredo de Angelis - Pura Maña (1943) / Overjazz / 2:55
+           https://youtu.be/z0OWbsAgUN8
+      El Entrerriano
+        -> Alfredo de Angelis - el Entrerriano (1946) / Overjazz / 2:49
+           https://youtu.be/42tuSXnSmdo
+      Adiós Marinero
+        -> ALFREDO DE ANGELIS - CARLOS DANTE - JULIO MARTEL - ADIOS MARINERO / DEL PASADO / Cantando Tangos / 5:39
+           https://youtu.be/I51OxYHZVdo
+  · Alfredo De Angelis — Alfredo De Angelis — Pavadita
+      El Tango Club
+        -> El Tango club - Alfredo De Angelis / SERGIO DUQUE / 2:41
+           https://youtu.be/CQxDwZG2YH4
+      El Pial
+        -> El Pial / Alfredo De Angelis / 2:40
+           https://youtu.be/AIqsqH30sQM
+      Guardia Vieja
+        -> Alfredo De Angelis - 1954 - Guardia vieja / DJ TORO / 2:44
+           https://youtu.be/KZJVByCTGeY
+  · Osvaldo Pugliese — Osvaldo Pugliese — De Caro por Pugliese
+      Tierra Querida
+        -> TIERRA QUERIDA  - PUGLIESE / radiotangorosario / 3:21
+           https://youtu.be/PyR4SetQyZs
+      Mala Junta
+        -> Mala Junta / Osvaldo Pugliese - Topic / 3:37
+           https://youtu.be/6NOMSExtLnM
+      Orgullo Criollo
+        -> Osvaldo Pugliese. Orgullo criollo. / fwwweye / 3:18
+           https://youtu.be/K-sZqqCXlzA
+  · Osvaldo Pugliese — Osvaldo Pugliese — Tiny
+      Mala Estampa
+        -> Mala Pinta (Mala Estampa) / Osvaldo Pugliese - Topic / 2:41
+           https://youtu.be/eJVq1CC2wrw
+      Raza Criolla
+        -> Osvaldo Pugliese - 1945 - Raza criolla / DJ TORO / 2:32
+           https://youtu.be/qCjLA9LBqVg
+      El Remate
+        -> EL REMATE -  PUGLIESE / radiotangorosario / 2:53
+           https://youtu.be/vO0SRwBEk_8
+  · Osvaldo Pugliese — Osvaldo Pugliese — La Yumba
+      La Yumba
+        -> La Yumba (Remastered) / Osvaldo Pugliese - Topic / 2:48
+           https://youtu.be/M8Rf2_hmkhA
+      Gallo Ciego
+        -> Gallo Ciego (Instrumental) / Osvaldo Pugliese - Topic / 3:36
+           https://youtu.be/4sou-mSBLUs
+      Corrientes y Esmeralda
+        -> Osvaldo Pugliese, Roberto Chanel - Corrientes Y Esmeralda (Audio) / OsvaldoPuglieseVEVO / 2:48
+           https://youtu.be/1VUf_jAFR-Q
+  · Osvaldo Pugliese — Osvaldo Pugliese — Nochero Soy
+      Nochero Soy
+        -> Nochero soy / Osvaldo Pugliese - Topic / 3:34
+           https://youtu.be/moHqQCNki0Q
+      Derecho Viejo
+        -> Osvaldo Pugliese   Derecho viejo   1945 / La Guardia Digital Radio Tango hi res / 2:13
+           https://youtu.be/kpTZMy-Cgl4
+      La Mariposa
+        -> LA MARIPOSA -  PUGLIESE / radiotangorosario / 3:33
+           https://youtu.be/EG31SnoNXag
+  · Osvaldo Pugliese — Osvaldo Pugliese — Tinta Roja
+      Tinta Roja
+        -> Tinta Roja (Instrumental) / Osvaldo Pugliese - Topic / 3:12
+           https://youtu.be/7RZw-KWbSm8
+      A Los Amigos
+        -> Clarisa Aragon & Jonathan Saavedra - A los Amigos - Osvaldo Pugliese by SivisArt / Sivis'Art / 3:34
+           https://youtu.be/ibQaoBDDqB8
+      El Andariego
+        -> El Andariego (Instrumental) / Osvaldo Pugliese - Topic / 3:22
+           https://youtu.be/2S26Le46OWk
+  · 혼합 (Carlos García 등) — 믹스 탄다 (Transitional/New Tango)
+      La Cumparsita — Carlos García y Tango All Stars
+        -> La Cumparsita / Carlos De Maria - Topic / 3:08
+           https://youtu.be/mjELOEb7Jyg
+      Adiós Nonino — Carlos García y Tango All Stars
+        -> Adios Nonino / Carlos Garcia - Topic / 4:33
+           https://youtu.be/WUNurqqzJNk
+      Verano Porteño — Raúl Garello
+        -> Verano Porteño / Raul Garello - Topic / 4:35
+           https://youtu.be/3QRms5XBKGQ
+      A Media Luz — Francini/Pontier
+        -> A Media Luz / Orquesta Francini-Pontier - Topic / 2:38
+           https://youtu.be/xY1x4GP0wFo
+  · New York Tango Trio — New York Tango Trio
+      El Entrerriano
+        -> EL ENTRERRIANO - NEW YORK TANGO TRIO - 0000 - TANGO STRUMENTALE / auditetango / 2:41
+           https://youtu.be/vHRDIr0-2xc
+      9 de Julio
+        -> Argentine tango:Yaisuri Salamanca & John Hernan Raigoza - 9 DE JULIO / Tangobro / 2:24
+           https://youtu.be/smKcoeTmmHM
+  · Color Tango — Orquesta Color Tango
+      A Evaristo Carriego
+        -> A Evaristo Carriego / Color Tango / 4:00
+           https://youtu.be/-ntdByfgwDQ
+
+■ 발스
+  · Alfredo De Angelis — Alfredo De Angelis — Valses
+      Pobre Flor
+        -> Pobre Flor / Alfredo De Angelis / 2:44
+           https://youtu.be/UjIYG95o0TQ
+      Soñar Y Nada Más
+        -> Alfredo De Angelis - 'Soñar y nada más' (vals) - 1944 / Michael Lavocah / 3:09
+           https://youtu.be/cdACtXG7lAE
+      Flores del Alma
+        -> FLORES DEL ALMA.-Alfredo De Angelis-Carlos Dante-Julio Martel / sportifabio2 / 3:05
+           https://youtu.be/PG6gXa7RD_M
+      A Magaldi
+        -> Alfredo De Angelis Y Carlos Dante, Julio Martel - A Magaldi - VALS - 1947 / La Guardia Digital Radio Tango hi res / 2:50
+           https://youtu.be/Aie0momDlTQ
+  · Miguel Caló — Miguel Caló — Valses
+      Bajo un Cielo de Estrellas
+        -> Bajo un cielo de estrellas - Miguel Calo - Vals / imnotalabel / 2:38
+           https://youtu.be/ZHN261As5C8
+      Pedacito de Cielo
+        -> Miguel Calò Y Alberto Podestà   Pedacito de cielo   VALS   1942 / La Guardia Digital Radio Tango hi res / 2:23
+           https://youtu.be/BXvJc4a98co
+      El Vals Soñador
+        -> Raúl Berón - Miguel Caló - El vals soñador / jcptango / 3:27
+           https://youtu.be/A7ZynAeL7v8
+  · Ricardo Tanturi — Ricardo Tanturi con Alberto Castillo — Valses
+      Con Los Amigos
+        -> Ricardo Tanturi Y Alberto Castillo   Con Los Amigos A Mi Madre   VALS   1943 / La Guardia Digital Radio Tango hi res / 2:41
+           https://youtu.be/_o-93erFzxg
+      Mi Romance
+        -> RICARDO TANTURI ALBERTO CASTILLO VALSES 1941 MI ROMANCE DJ EL IRLANDÉS / TANGO ROUGE ROJO MONTRÉAL / 7:15
+           https://youtu.be/BcNrVZlfmXg
+  · Carlos Di Sarli — Carlos Di Sarli — Valses (Rufino/Volpe)
+      Cortando Camino (1941, Rufino)
+        -> Carlos Di Sarli Y Roberto Rufino   Cortando Camino   VALS   1941 / La Guardia Digital Radio Tango hi res / 2:42
+           https://youtu.be/7zuidzeqj4w
+      Rosamel (1940, Rufino)
+        -> ROSAMEL - 1.1 - CARLOS DI SARLI - ROBERTO RUFINO - 1940 - TANGO VALS CANTATO / auditetango / 2:32
+           https://youtu.be/DsTZDikjuqM
+      Ausencia (1940, Volpe)
+        -> Carlos Di Sarli   Roberto Rufino   Ausencia vals / Tango Magic / 2:39
+           https://youtu.be/ngjDoXgoDQ0
+  · Carlos Di Sarli — Carlos Di Sarli — Valses (Podestá/Durán)
+      De Vuelta (1947, Podestá)
+        -> Carlos Di Sarli - 1947 - Podesta - De vuelta / DJ TORO / 3:02
+           https://youtu.be/sLbbSeBH1qw
+      Estampa Federal (1942, Podestá)
+        -> Estampa federal - Alberto Podestá | Orq. Carlos di Sarli / Sinfonía Maleva / 2:34
+           https://youtu.be/BDgwldRRFZ8
+      Acuérdate de Mí (1946, Durán)
+        -> Carlos Di Sarli - Acuerdate de Mi (1946) / Overjazz / 2:58
+           https://youtu.be/ldGUfttsU6o
+  · Rodolfo Biagi — Rodolfo Biagi — Valses
+      Por Un Beso de Amor
+        -> RODOLFO BIAGI - JORGE ORTIZ - POR UN BESO DE AMOR - VALS - 1940 / Cantando Tangos / 2:41
+           https://youtu.be/FeQdIuDcTUI
+      Cuatro Palabras
+        -> RODOLFO BIAGI  - JORGE ORTIZ  - CUATRO PALABRAS -  VALS / Cantando Tangos / 2:19
+           https://youtu.be/orRIANnnais
+      Lágrimas y Sonrisas
+        -> Lagrimas y sonrisas. Rodolfo Biagi / Juan Amaya y Valentina Garnier / 3:00
+           https://youtu.be/baECC_CTcLs
+  · Dan Díaz y Tango Camerata — Dan Díaz & Tango Camerata — Valses (현대)
+      Palomita Blanca
+        -> Palomita Blanca / Luis Saltos - Topic / 2:20
+           https://youtu.be/GPsRG3_R4qk
+      Romance de Barrio
+        -> Romance de Barrio / Pavadita Tango String Quartet, Victor Hugo Villena - Topic / 2:29
+           https://youtu.be/6kewJPtsr2U
+      Desde el Alma
+        -> Desde El Alma / Quinteto Ángel - Topic / 3:06
+           https://youtu.be/MskIx1J62To
+  · 혼합 — 믹스 탄다 (Valses)
+      Palomita Blanca — Héctor Varela
+        -> Palomita Blanca-Hector Varela / Oscar Henales / 2:32
+           https://youtu.be/aUKthFRYm-8
+      Corazón de Oro — Lalo Schifrin Orquesta
+        -> Lalo Schifrin con Orchestra Ensemble "Corazón De Oro" (1998) / ciaco64 / 3:08
+           https://youtu.be/JBAV2rU7AJU
+      Desde el Alma — Osvaldo Pugliese
+        -> OSVALDO PUGLIESE & SU ORQUESTA TÍPICA: DESDE EL ALMA - VALS / argentinatangodj / 3:02
+           https://youtu.be/QQ2dNrybAuU
+      Ilusión de Mi Vida — Color Tango
+        -> Ilusión de Mi Vida / Color Tango / 3:00
+           https://youtu.be/TnhMHmU2r54
+
+■ 밀롱가
+  · Pedro Laurenz — Pedro Laurenz — Milongas
+      Milonga Compadre
+        -> Milonga Compadre / Pedro Laurenz - Topic / 2:43
+           https://youtu.be/uH6dU_hMI1c
+      Yo Soy de San Telmo
+        -> PEDRO LAURENZ - ALBERTO PODESTA - YO SOY DE SAN TELMO - MILONGA - 1943 / Cantando Tangos / 2:35
+           https://youtu.be/spn_8VoMTTw
+      Milonga de Mis Amores
+        -> PEDRO LAURENZ - MILONGA DE MIS AMORES - 1937 / Cantando Tangos / 2:39
+           https://youtu.be/X0MdL97msSE
+  · Francisco Canaro — Francisco Canaro — Milongas I
+      Milonga Sentimental
+        -> Milonga Sentimental (Remasterizado) / FRANCISCO CANARO - Topic / 3:14
+           https://youtu.be/kAQiyya9rsA
+      Silueta Porteña
+        -> Silueta Porteña (Remasterizado) / FRANCISCO CANARO - Topic / 2:50
+           https://youtu.be/wDBNHs0B77c
+      Cuando un Viejo Se Enamora
+        -> FRANCISCO CANARO  -  CARLOS ROLDÁN -  CUANDO UN VIEJO SE ENAMORA   MILONGA / Cantando Tangos / 2:31
+           https://youtu.be/752w60MGK28
+  · Francisco Canaro — Francisco Canaro — Milongas II
+      Reliquias Porteñas
+        -> Francisco Canaro - Reliquias Porteñas (Milonga) / tira50 / 2:39
+           https://youtu.be/pIWdY2OSjhQ
+      Milonga Brava
+        -> Francisco Canaro Y Roberto Maida   Milonga brava   MILONGA   1938 / La Guardia Digital Radio Tango hi res / 2:38
+           https://youtu.be/ZngTl7rbsio
+      No Hay Tierra Como La Mía
+        -> No Hay Tierra Como la Mia (Remasterizado) / FRANCISCO CANARO - Topic / 2:43
+           https://youtu.be/rSMOPspX2rM
+  · Miguel Caló — Miguel Caló — Milongas
+      Milonga Antigua
+        -> Miguel Calò Y Raul Beron   Milonga antigua  MILONGA   1942 / La Guardia Digital Radio Tango hi res / 2:27
+           https://youtu.be/mpIAeexGByY
+      Milonga Que Peina Canas
+        -> Miguel Calò Y Raul Beron   Milonga que peina canas   MILONGA   1942 / La Guardia Digital Radio Tango hi res / 2:22
+           https://youtu.be/9TC5TI9HZZs
+  · Rodolfo Biagi — Rodolfo Biagi — Milongas
+      Campo Afuera
+        -> CAMPO AFUERA-RODOLFO BIAGI-TEOFILO IBANEZ / sportifabio2 / 2:04
+           https://youtu.be/6fK2MvrPUoA
+      Cantando Se Van Las Penas
+        -> CANTANDO SE VAN LAS PENAS  (milonga) - BIAGI JORGE ORTIZ / radiotangorosario / 1:57
+           https://youtu.be/oIgzFX87EP0
+      Flor de Montserrat
+        -> Rodolfo Biagi y su Orquesta Típica, Alberto Amor - Flor de Montserrat (milonga 1945) / JimiKWray2 / 3:38
+           https://youtu.be/dTg6f5wwgAM
+  · Juan D'Arienzo — Juan D'Arienzo — Milongas I
+      La Puñalada
+        -> La puñalada / Juan Darienzo / 2:00
+           https://youtu.be/_BRAxgxwa8w
+      El Esquinazo
+        -> Juan D´Arienzo - El Esquinazo / jcptango / 2:28
+           https://youtu.be/cJQ8A8gMeE8
+      Milonga Vieja Milonga
+        -> Juan D'Arienzo   Milonga Vieja Milonga   MILONGA   1937 / La Guardia Digital Radio Tango hi res / 2:41
+           https://youtu.be/0qJIBO89T6I
+      El Comandante
+        -> Juan D'arienzo - 1952 - Laborde - El comandante / DJ TORO / 2:21
+           https://youtu.be/jQaNjBTOnSo
+  · Juan D'Arienzo — Juan D'Arienzo — Milongas II
+      Milonga Que Peina Canas
+        -> Juan D'arienzo - 1952 - Laborde - Milonga que peina canas / DJ TORO / 2:32
+           https://youtu.be/SzlMCxdznlY
+      El Temblor
+        -> D'arienzo - Echagüe: El temblor (Milonga) - 1938 / DJDANYBU / 2:07
+           https://youtu.be/DLn9xGVJMt4
+      Milonga Querida
+        -> Juan D'Arienzo - 1938 - Alberto Echague - Milonga Querida / DJ TORO / 2:32
+           https://youtu.be/WMOxYIJz6Gs
+      Milonga del Corazón
+        -> Juan D'Arienzo - Milonga Del Corazon / flywerasew / 2:26
+           https://youtu.be/k1RFywiAB3A
+  · Juan D'Arienzo — Juan D'Arienzo — Milongas III
+      La Espuela
+        -> Juan D'Arienzo - La espuela / Goran Aranđelović / 2:37
+           https://youtu.be/8TnM8wdNB2Y
+      Por Dos Caminos
+        -> Por Dos Caminos / Juan Darienzo / 2:16
+           https://youtu.be/cF3HitkZg4s
+      El Paisanito
+        -> El Paisanito / Juan Darienzo / 2:19
+           https://youtu.be/igtvBf3Fnh0
+      Calandria Pampa
+        -> Calandria Pampa / Juan Darienzo / 2:16
+           https://youtu.be/IFe0sTsDHgY
+  · Ricardo Tanturi — Ricardo Tanturi con Alberto Castillo — Milongas
+      Mi Morocha
+        -> RICARDO TANTURI - ALBERTO CASTILLO - MI MOROCHA / MOZO GUAPO - MILONGAS - 1941 / Cantando Tangos / 4:35
+           https://youtu.be/Q3FZN31mbXQ
+      Así Es la Milonga
+        -> Ricardo Tanturi Y Alberto Castillo   Asi Es La Milonga   MILONGA   1942 / La Guardia Digital Radio Tango hi res / 2:14
+           https://youtu.be/JNID3K0tO2E
+      Mozo Guapo
+        -> Ricardo Tanturi Y Alberto Castillo   Mozo Guapo   MILONGA   1941 / La Guardia Digital Radio Tango hi res / 2:14
+           https://youtu.be/ih_3-oF8yDk
+  · Aníbal Troilo — Aníbal Troilo — Milongas
+      Ficha de Oro
+        -> Ficha de Oro - Milonga / Anibal Troilo Pichuco Oficial / 2:45
+           https://youtu.be/PJ4aqE4NHVk
+      Del Tiempo Guapo
+        -> ANIBAL TROILO - FRANCISCO FIORENTINO - DEL TIEMPO GUAPO - MILONGA - 1941 / Cantando Tangos / 2:24
+           https://youtu.be/io7nLy6CMn8
+      Mano Brava
+        -> 10. Anibal Troilo - Mano brava / Latin Central Records / 1:48
+           https://youtu.be/kuGzbZ_yKeU
+  · Carlos Di Sarli — Carlos Di Sarli — Milongas
+      Rosa Morena
+        -> Rosa Morena (Milonga) / Sexteto Carlos Di Sarli - Topic / 2:19
+           https://youtu.be/DZGHnXBX4MI
+      La Mulateada
+        -> LA MULATEADA - CARLOS DI SARLI - ROBERTO RUFINO / joxidda / 2:23
+           https://youtu.be/xHIxxBdcnwE
+      Pena Mulata
+        -> Carlos Di Sarli - 1941 - Rufino - Pena mulata / DJ TORO / 2:32
+           https://youtu.be/budl6GycHuM

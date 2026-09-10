@@ -65,7 +65,8 @@
   }
   select:focus,input:focus{outline:none;border-color:var(--gold)}
   input::placeholder{color:var(--faint)}
-  #mode-select{max-width:400px}
+  #mode-select{max-width:430px}
+  .toolbar select[hidden]{display:none}
   .btn{border:1px solid var(--line);background:var(--card);color:var(--ink);
        border-radius:3px;padding:8px 16px;min-height:38px;letter-spacing:.04em}
   .btn:hover{border-color:var(--gold);background:var(--card2)}
@@ -339,6 +340,15 @@
             <option value="basic">기본 편성 (로맨틱4 리드미컬4 발스3 화려4 조용4 밀롱가3)</option>
             <option value="random">랜덤 편성 (분위기 랜덤 · 탱4탱4발3 탱4탱4밀3)</option>
             <option value="practice">연습 (탱탱탱발 탱탱탱밀 · 2곡씩)</option>
+            <option value="rnd-all">완전 랜덤 (탱고·발스·밀롱가 뒤섞기 · 코르티나 없음)</option>
+            <option value="rnd-tango">탱고 랜덤 (코르티나 없음)</option>
+            <option value="rnd-vals">발스 랜덤 (코르티나 없음)</option>
+            <option value="rnd-milonga">밀롱가 랜덤 (코르티나 없음)</option>
+          </select>
+          <select id="count-input" hidden>
+            <option value="10">10곡</option>
+            <option value="20">20곡</option>
+            <option value="30" selected>30곡</option>
           </select>
           <select id="sets-input">
             <option value="1">1세트</option><option value="2">2세트</option>
@@ -666,7 +676,57 @@ function mkCortina(sec){
   return {id:uid(), kind:'cortina', cortinaId: pool[Math.floor(Math.random()*pool.length)].id, seconds: sec};
 }
 
-function buildProgram(mode, sets, cortinaSec){
+/* ---- 랜덤 모드 (세트·코르티나 없이 곡만 무작위로 뽑는다) ---- */
+const RANDOM_MODES = {
+  'rnd-all':     ['tango','vals','milonga'],
+  'rnd-tango':   ['tango'],
+  'rnd-vals':    ['vals'],
+  'rnd-milonga': ['milonga']
+};
+const isRandomMode = mode => !!RANDOM_MODES[mode];
+
+const shuffled = arr => {
+  const a = arr.slice();
+  for(let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+};
+/** 해당 장르(들)의 모든 곡을 {tanda, song} 으로 펼친다. */
+function songPool(genres){
+  const pool = [];
+  genres.forEach(g => (DATA[g] || []).forEach(t => t.songs.forEach(s => pool.push({tanda:t, song:s}))));
+  return pool;
+}
+/** 곡 하나짜리 슬롯 (딴따 구조를 그대로 쓰되 count 를 1로 둔다) */
+const mkSongSlot = (t, song) =>
+  ({id:uid(), kind:'tanda', tandaId:t.id, count:1, role:null, songIds:[song.id]});
+
+/** 분위기·세트를 따지지 않고 want 곡을 무작위로 뽑는다. 코르티나는 넣지 않는다. */
+function buildRandomProgram(mode, want){
+  const pool = shuffled(songPool(RANDOM_MODES[mode]));
+  const slots = [], seenId = {}, seenTitle = {}, spare = [];
+  for(const it of pool){
+    if(slots.length >= want) break;
+    if(seenId[it.song.id]) continue;
+    const k = songKey(it.song).toLowerCase();
+    if(seenTitle[k]){ spare.push(it); continue; }   // 같은 곡명은 일단 미뤄 둔다
+    seenId[it.song.id] = 1; seenTitle[k] = 1;
+    slots.push(mkSongSlot(it.tanda, it.song));
+  }
+  // 곡이 모자라면 다른 악단이 연주한 같은 곡명으로 채운다
+  for(const it of spare){
+    if(slots.length >= want) break;
+    if(seenId[it.song.id]) continue;
+    seenId[it.song.id] = 1;
+    slots.push(mkSongSlot(it.tanda, it.song));
+  }
+  return slots;
+}
+
+function buildProgram(mode, sets, cortinaSec, songCount){
+  if(isRandomMode(mode)) return buildRandomProgram(mode, songCount);
   const used = new Set(), slots = [];
   const taken = {};                       // 오늘 이미 쓴 곡 (곡 id + 제목)
   let setOrch = new Set();                // 한 세트 안에서 이미 쓴 악단
@@ -724,6 +784,7 @@ function buildProgram(mode, sets, cortinaSec){
 
 /* ================= 프로그램 상태 ================= */
 let programSlots = [];
+let programMode = 'basic';            // 지금 만들어져 있는 프로그램의 편성 모드
 let pos = null;                       // {slotId, songIdx} — 슬롯을 가리키므로 재생 중에 목록을 고쳐도 따라간다
 
 const slotIdx = id => programSlots.findIndex(s => s.id === id);
@@ -799,7 +860,7 @@ function renderProgram(){
       '<div class="body">' +
         '<div class="l1">' +
           '<span class="g ' + t.genre + '">' + genreLabel(t.genre) + (slot.role ? ' · ' + slot.role : '') + '</span>' +
-          '<span class="orch">' + esc(t.orchestra) + '</span>' +
+          '<span class="orch">' + esc(songs.length === 1 ? orchestraOf(t, songs[0]) : t.orchestra) + '</span>' +
           '<span class="note">' + (isInstrumental(t) ? '연주곡' : esc(t.singer)) + '</span>' +
         '</div>' +
         '<div class="songs">' +
@@ -833,14 +894,31 @@ function renderProgram(){
     list.appendChild(div);
   });
 
+  const randomNow = isRandomMode(programMode);
+  const genres = randomNow ? RANDOM_MODES[programMode] : ['tango','vals','milonga'];
+
   const add = document.createElement('div');
   add.className = 'addrow';
   add.innerHTML =
-    '<span class="note">딴따 추가</span>' +
-    '<select id="add-genre"><option value="tango">탱고</option><option value="vals">발스</option><option value="milonga">밀롱가</option></select>' +
+    '<span class="note">' + (randomNow ? '곡 추가' : '딴따 추가') + '</span>' +
+    '<select id="add-genre">' +
+      genres.map(g => '<option value="' + g + '">' + genreLabel(g) + '</option>').join('') +
+    '</select>' +
     '<button class="btn sm" id="add-btn">＋ 맨 뒤에 추가</button>';
   add.querySelector('#add-btn').addEventListener('click', () => {
     const g = add.querySelector('#add-genre').value;
+    if(randomNow){
+      // 랜덤 모드에서는 아직 안 쓴 곡 하나를 무작위로 붙인다 (코르티나 없음)
+      const inUse = new Set(programSlots.filter(s => s.kind === 'tanda')
+                                        .flatMap(s => s.songIds || []));
+      const rest = songPool([g]).filter(it => !inUse.has(it.song.id));
+      if(!rest.length){ toast(genreLabel(g) + ' 곡을 이미 다 넣었습니다.'); return; }
+      const it = rest[Math.floor(Math.random() * rest.length)];
+      programSlots.push(mkSongSlot(it.tanda, it.song));
+      renderProgram();
+      toast(songKey(it.song) + ' 을(를) 뒤에 넣었습니다.');
+      return;
+    }
     const used = new Set(programSlots.filter(s => s.kind === 'tanda').map(s => s.tandaId));
     const need = g === 'tango' ? 4 : 3;
     const t = pick(g, x => canFill(x, need), used);   // 손으로 추가할 때는 조건을 느슨하게
@@ -852,7 +930,7 @@ function renderProgram(){
   });
   list.appendChild(add);
 
-  document.getElementById('program-summary').textContent = n + '개 딴따';
+  document.getElementById('program-summary').textContent = randomNow ? n + '곡' : n + '개 딴따';
 }
 
 function moveSlot(slotId, dir){
@@ -863,6 +941,7 @@ function moveSlot(slotId, dir){
   [a.tandaId, b.tandaId] = [b.tandaId, a.tandaId];
   [a.count, b.count]     = [b.count, a.count];
   [a.role, b.role]       = [b.role, a.role];
+  [a.songIds, b.songIds] = [b.songIds, a.songIds];
   if(pos && (pos.slotId === a.id || pos.slotId === b.id)){
     const other = pos.slotId === a.id ? b : a;
     pos = {slotId:other.id, songIdx:pos.songIdx};   // 곡은 그대로 따라간다
@@ -1359,14 +1438,33 @@ function init(){
   secSel.value = String(settings.cortinaSeconds != null ? settings.cortinaSeconds : 30);
   if(!secSel.value) secSel.value = '30';
 
+  // 랜덤 모드에서는 세트·코르티나 대신 곡 수만 고른다 (기본 30곡)
+  const modeSel  = document.getElementById('mode-select');
+  const setsSel  = document.getElementById('sets-input');
+  const countSel = document.getElementById('count-input');
+  function syncModeControls(){
+    const rnd = isRandomMode(modeSel.value);
+    countSel.hidden = !rnd;
+    setsSel.hidden  = rnd;
+    secSel.hidden   = rnd;
+    if(rnd && !countSel.value) countSel.value = '30';
+  }
+  modeSel.addEventListener('change', syncModeControls);
+  syncModeControls();
+
   document.getElementById('generate-btn').addEventListener('click', () => {
-    const mode = document.getElementById('mode-select').value;
-    const sets = parseInt(document.getElementById('sets-input').value, 10) || 1;
-    const sec  = parseInt(secSel.value, 10) || 0;
-    settings.cortinaSeconds = sec; lsSet(LS.settings, settings);
-    programSlots = buildProgram(mode, sets, sec);
+    const mode  = modeSel.value;
+    const sets  = parseInt(setsSel.value, 10) || 1;
+    const count = parseInt(countSel.value, 10) || 30;
+    const sec   = isRandomMode(mode) ? 0 : (parseInt(secSel.value, 10) || 0);
+    if(!isRandomMode(mode)){ settings.cortinaSeconds = sec; lsSet(LS.settings, settings); }
+    programMode = mode;
+    programSlots = buildProgram(mode, sets, sec, count);
     pos = null;
     renderProgram();
+    if(isRandomMode(mode) && programSlots.length < count)
+      toast(RANDOM_MODES[mode].map(genreLabel).join('·') + ' 곡이 ' + programSlots.length +
+            '곡뿐이라 ' + programSlots.length + '곡으로 만들었습니다.');
   });
 
   document.getElementById('filter-genre').addEventListener('change', renderLibrary);

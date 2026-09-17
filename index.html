@@ -291,6 +291,17 @@
             <option value="practice">쁘롱가 (탱탱탱발 탱탱탱밀 · 2곡씩)</option>
             <option value="prongga-3">쁘롱가 (탱탱탱발 탱탱탱밀 · 3곡씩)</option>
             <option value="prongga-332332">쁘롱가 (탱3탱3발2 탱3탱3밀2)</option>
+            <option value="rnd-all">탱발밀 완전 랜덤 (코르티나 없음)</option>
+            <option value="rnd-tango">탱고 랜덤 (코르티나 없음)</option>
+            <option value="rnd-vals">발스 랜덤 (코르티나 없음)</option>
+            <option value="rnd-milonga">밀롱가 랜덤 (코르티나 없음)</option>
+          </select>
+          <select id="count-input" hidden>
+            <option value="10">10곡</option>
+            <option value="20">20곡</option>
+            <option value="30" selected>30곡</option>
+            <option value="40">40곡</option>
+            <option value="50">50곡</option>
           </select>
           <select id="sets-input">
             <option value="1">1세트</option><option value="2">2세트</option>
@@ -570,7 +581,57 @@ function mkCortina(sec){
   return {id:uid(), kind:'cortina', cortinaId: pool[Math.floor(Math.random()*pool.length)].id, seconds: sec};
 }
 
-function buildProgram(mode, sets, cortinaSec){
+/* ---- 랜덤 모드 (세트·코르티나 없이 곡만 무작위로 뽑는다) ---- */
+const RANDOM_MODES = {
+  'rnd-all':     ['tango','vals','milonga'],
+  'rnd-tango':   ['tango'],
+  'rnd-vals':    ['vals'],
+  'rnd-milonga': ['milonga']
+};
+const isRandomMode = mode => !!RANDOM_MODES[mode];
+
+const shuffled = arr => {
+  const a = arr.slice();
+  for(let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+};
+/** 해당 장르(들)의 모든 곡을 {tanda, song} 으로 펼친다. */
+function songPool(genres){
+  const pool = [];
+  genres.forEach(g => (DATA[g] || []).forEach(t => t.songs.forEach(s => pool.push({tanda:t, song:s}))));
+  return pool;
+}
+/** 곡 하나짜리 슬롯 (딴따 구조를 그대로 쓰되 count 를 1로 둔다) */
+const mkSongSlot = (t, song) =>
+  ({id:uid(), kind:'tanda', tandaId:t.id, count:1, role:null, songIds:[song.id]});
+
+/** 분위기·세트를 따지지 않고 want 곡을 무작위로 뽑는다. 코르티나는 넣지 않는다. */
+function buildRandomProgram(mode, want){
+  const pool = shuffled(songPool(RANDOM_MODES[mode]));
+  const slots = [], seenId = {}, seenTitle = {}, spare = [];
+  for(const it of pool){
+    if(slots.length >= want) break;
+    if(seenId[it.song.id]) continue;
+    const k = songKey(it.song).toLowerCase();
+    if(seenTitle[k]){ spare.push(it); continue; }   // 같은 곡명은 일단 미뤄 둔다
+    seenId[it.song.id] = 1; seenTitle[k] = 1;
+    slots.push(mkSongSlot(it.tanda, it.song));
+  }
+  // 곡이 모자라면 다른 악단이 연주한 같은 곡명으로 채운다
+  for(const it of spare){
+    if(slots.length >= want) break;
+    if(seenId[it.song.id]) continue;
+    seenId[it.song.id] = 1;
+    slots.push(mkSongSlot(it.tanda, it.song));
+  }
+  return slots;
+}
+
+function buildProgram(mode, sets, cortinaSec, songCount){
+  if(isRandomMode(mode)) return buildRandomProgram(mode, songCount);
   const used = new Set(), slots = [];
   const taken = {};                       // 오늘 이미 쓴 곡 (곡 id + 제목)
   let setOrch = new Set();                // 한 세트 안에서 이미 쓴 악단
@@ -1233,16 +1294,34 @@ function init(){
     }
   }));
 
+  const modeSel = document.getElementById('mode-select');
+  const countSel = document.getElementById('count-input');
+  const setsSel = document.getElementById('sets-input');
   const secSel = document.getElementById('cortina-seconds-input');
-  secSel.value = String(settings.cortinaSeconds != null ? settings.cortinaSeconds : 30);
-  if(!secSel.value) secSel.value = '30';
+
+  const updateModeVisibility = () => {
+    const isRnd = isRandomMode(modeSel ? modeSel.value : '');
+    if(countSel) countSel.hidden = !isRnd;
+    if(setsSel) setsSel.hidden = isRnd;
+    if(secSel) secSel.hidden = isRnd;
+  };
+  if(modeSel){
+    modeSel.addEventListener('change', updateModeVisibility);
+    updateModeVisibility();
+  }
+
+  if(secSel){
+    secSel.value = String(settings.cortinaSeconds != null ? settings.cortinaSeconds : 30);
+    if(!secSel.value) secSel.value = '30';
+  }
 
   document.getElementById('generate-btn').addEventListener('click', () => {
-    const mode = document.getElementById('mode-select').value;
-    const sets = parseInt(document.getElementById('sets-input').value, 10) || 1;
-    const sec  = parseInt(secSel.value, 10) || 0;
+    const mode = modeSel ? modeSel.value : 'basic';
+    const sets = parseInt(setsSel ? setsSel.value : '1', 10) || 1;
+    const sec  = parseInt(secSel ? secSel.value : '0', 10) || 0;
+    const songCount = parseInt(countSel ? countSel.value : '30', 10) || 30;
     settings.cortinaSeconds = sec; lsSet(LS.settings, settings);
-    programSlots = buildProgram(mode, sets, sec);
+    programSlots = buildProgram(mode, sets, sec, songCount);
     pos = null;
     renderProgram();
   });

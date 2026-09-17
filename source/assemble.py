@@ -3,7 +3,8 @@
 import json, pathlib
 
 here = pathlib.Path(__file__).resolve().parent
-out = here.parent / "tango_auto_dj.html"
+out1 = here.parent / "tango_auto_dj.html"
+out2 = here.parent / "index.html"
 
 template = (here / "template.html").read_text(encoding="utf-8")
 app_js = (here / "app.js").read_text(encoding="utf-8")
@@ -16,5 +17,6 @@ html = html.replace("__APP_JS__", app_js)
 
 for ph in ("__TANGO_DATA_JSON__", "__TANGO_INFO_JSON__", "__APP_JS__"):
     assert ph not in html, ph
-out.write_text(html, encoding="utf-8")
-print(f"wrote {out} ({len(html):,} chars)")
+out1.write_text(html, encoding="utf-8")
+out2.write_text(html, encoding="utf-8")
+print(f"wrote {out1} and {out2} ({len(html):,} chars)")

@@ -1,4 +1,4 @@
-﻿# 쎄븐 탱고 플레이어 - 로컬 서버
+# 쎄븐 탱고 플레이어 - 로컬 서버
 #
 # 유튜브는 file:// 로 연 페이지의 영상 재생을 막습니다(오류 153).
 # 그래서 이 폴더를 잠깐 http:// 로 띄운 뒤 브라우저를 엽니다.
@@ -98,7 +98,9 @@ while ($true) {
 
         $rel = ($parts[1] -split '\?')[0]
         $rel = [uri]::UnescapeDataString($rel).TrimStart('/')
-        if ([string]::IsNullOrWhiteSpace($rel)) { $rel = "tango_auto_dj.html" }
+        if ([string]::IsNullOrWhiteSpace($rel)) {
+            $rel = if (Test-Path (Join-Path $Root "tango_auto_dj.html")) { "tango_auto_dj.html" } else { "index.html" }
+        }
         $rel = $rel -replace '/', '\'
 
         $full = Join-Path $Root $rel

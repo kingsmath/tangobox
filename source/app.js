@@ -198,13 +198,32 @@ function buildProgram(mode, sets, cortinaSec){
   const fresh = t => !setOrch.has(t.orchestra);
   for(let s = 0; s < sets; s++){
     setOrch = new Set();
-    if(mode === 'practice'){
+    if(mode === 'practice' || mode === 'prongga-2'){
       let prev = null;
       ['tango','tango','tango','vals','tango','tango','tango','milonga'].forEach(g => {
         const t = pick(g, [x => canFill(x, 2, taken) && fresh(x),
                            x => canFill(x, 2, taken) && x.orchestra !== prev,
                            x => canFill(x, 2, taken)], used);
         used.add(t.id); prev = t.orchestra; push(t, 2, null);
+      });
+    } else if(mode === 'prongga-3'){
+      let prev = null;
+      ['tango','tango','tango','vals','tango','tango','tango','milonga'].forEach(g => {
+        const t = pick(g, [x => canFill(x, 3, taken) && fresh(x),
+                           x => canFill(x, 3, taken) && x.orchestra !== prev,
+                           x => canFill(x, 3, taken)], used);
+        used.add(t.id); prev = t.orchestra; push(t, 3, null);
+      });
+    } else if(mode === 'prongga-332332'){
+      let prev = null;
+      [
+        {g:'tango', n:3}, {g:'tango', n:3}, {g:'vals', n:2},
+        {g:'tango', n:3}, {g:'tango', n:3}, {g:'milonga', n:2}
+      ].forEach(item => {
+        const t = pick(item.g, [x => canFill(x, item.n, taken) && fresh(x),
+                                 x => canFill(x, item.n, taken) && x.orchestra !== prev,
+                                 x => canFill(x, item.n, taken)], used);
+        used.add(t.id); prev = t.orchestra; push(t, item.n, null);
       });
     } else if(mode === 'random'){
       let prev = null;

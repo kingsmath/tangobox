@@ -63,7 +63,7 @@ const fmt = s => { s = Math.floor(s||0); return Math.floor(s/60) + ':' + String(
 const isInstrumental = t => !t.singer || t.singer === '-' || /instrumental|연주곡/i.test(t.singer);
 const isMixed = t => /[가-힣]/.test(t.orchestra);
 
-/** 혼합 딴따는 "곡명 — 오케스트라" 형태라 곡별로 악단이 다르다. */
+/** 혼합 딴다는 "곡명 — 오케스트라" 형태라 곡별로 악단이 다르다. */
 function orchestraOf(tanda, song){
   if(!isMixed(tanda)) return tanda.orchestra;
   const bits = String(song && song.title || '').split(/\s*[—–]\s*/);
@@ -128,7 +128,7 @@ function toast(msg){
 }
 
 /* ================= 프로그램 생성 ================= */
-/** filters 를 앞에서부터 시도하며, 조건에 맞는 딴따를 무작위로 하나 고른다. */
+/** filters 를 앞에서부터 시도하며, 조건에 맞는 딴다를 무작위로 하나 고른다. */
 function pick(genre, filters, used){
   if(typeof filters === 'function') filters = [filters];
   for(const f of filters){
@@ -141,7 +141,7 @@ function pick(genre, filters, used){
   }
   return DATA[genre][Math.floor(Math.random() * DATA[genre].length)];
 }
-/** 같은 악단·같은 가수·비슷한 분위기의 곡을 모아 need 곡짜리 딴따를 만든다.
+/** 같은 악단·같은 가수·비슷한 분위기의 곡을 모아 need 곡짜리 딴다를 만든다.
  *  taken 에 든 곡(이미 오늘 프로그램에 쓴 곡)은 건너뛴다. */
 function expandSongs(tanda, need, taken){
   taken = taken || {};
@@ -351,7 +351,7 @@ function renderProgram(){
   const add = document.createElement('div');
   add.className = 'addrow';
   add.innerHTML =
-    '<span class="note">딴따 추가</span>' +
+    '<span class="note">딴다 추가</span>' +
     '<select id="add-genre"><option value="tango">탱고</option><option value="vals">발스</option><option value="milonga">밀롱가</option></select>' +
     '<button class="btn sm" id="add-btn">＋ 맨 뒤에 추가</button>';
   add.querySelector('#add-btn').addEventListener('click', () => {
@@ -363,11 +363,11 @@ function renderProgram(){
     if(sec > 0) programSlots.push(mkCortina(sec));
     programSlots.push(mkTanda(t, need, null));
     renderProgram();
-    toast(t.orchestra + ' 딴따를 뒤에 넣었습니다.');
+    toast(t.orchestra + ' 딴다를 뒤에 넣었습니다.');
   });
   list.appendChild(add);
 
-  document.getElementById('program-summary').textContent = n + '개 딴따';
+  document.getElementById('program-summary').textContent = n + '개 딴다';
 }
 
 function moveSlot(slotId, dir){
@@ -390,13 +390,13 @@ function removeSlot(slotId){
   if(i < 0) return;
   const wasPlaying = pos && pos.slotId === slotId;
   programSlots.splice(i, 1);
-  // 딴따를 빼면 짝지어 있던 코르티나도 같이 정리한다
+  // 딴다를 빼면 짝지어 있던 코르티나도 같이 정리한다
   if(programSlots[i] && programSlots[i].kind === 'cortina') programSlots.splice(i, 1);
   else if(i > 0 && !programSlots[i] && programSlots[i-1] && programSlots[i-1].kind === 'cortina')
     programSlots.splice(i - 1, 1);
 
   if(!wasPlaying){ renderProgram(); return; }
-  if(programSlots[i]) playAt({slotId:programSlots[i].id, songIdx:0});   // 그 자리에 온 딴따로 이어간다
+  if(programSlots[i]) playAt({slotId:programSlots[i].id, songIdx:0});   // 그 자리에 온 딴다로 이어간다
   else stop();
 }
 
@@ -448,7 +448,7 @@ function playAt(p){
   }
 
   if(item.kind === 'cortina'){
-    setNow('코르티나 — ' + (item.cortina ? item.cortina.title : ''), item.seconds + '초 후 다음 딴따');
+    setNow('코르티나 — ' + (item.cortina ? item.cortina.title : ''), item.seconds + '초 후 다음 딴다');
     if(item.videoId){
       isPaused = false;
       baseVolume = (ytPlayer.getVolume && ytPlayer.getVolume()) || 100;
@@ -546,7 +546,7 @@ setInterval(() => {
     const elapsed = (Date.now() - cortinaStart) / 1000;
     const left = Math.max(0, item.seconds - elapsed);
     pct = Math.min(100, elapsed / item.seconds * 100);
-    document.getElementById('now-sub').textContent = Math.ceil(left) + '초 후 다음 딴따';
+    document.getElementById('now-sub').textContent = Math.ceil(left) + '초 후 다음 딴다';
     if(ytPlayer && ytPlayer.setVolume){
       if(left <= FADE_SEC){ fading = true; ytPlayer.setVolume(Math.max(0, Math.round(baseVolume * left / FADE_SEC))); }
       else if(fading){ fading = false; ytPlayer.setVolume(baseVolume); }
@@ -576,7 +576,7 @@ function renderInfo(item){
     box.innerHTML =
       '<div class="blk"><h3>코르티나</h3>' +
       '<div class="name">' + esc(item.cortina ? item.cortina.title : '') + '</div>' +
-      '<p>딴따와 딴따 사이에 트는 짧은 곡입니다. 탱고가 아닌 곡을 트는 것이 관습인데, ' +
+      '<p>딴다와 딴다 사이에 트는 짧은 곡입니다. 탱고가 아닌 곡을 트는 것이 관습인데, ' +
       '“이제 파트너를 바꾸세요”라는 신호이기 때문입니다. ' +
       '마지막 ' + FADE_SEC + '초 동안 볼륨이 서서히 줄어듭니다.</p></div>';
     syncSideStick();
@@ -594,7 +594,7 @@ function renderInfo(item){
         '</div></div>' +
       (prof ? '<p>' + esc(prof.text) + '</p>' : '<p class="none">이 악단의 소개는 아직 준비되지 않았습니다.</p>') +
       (prof && prof.singers ? '<div class="meta">주요 가수 · ' + esc(prof.singers) + '</div>' : '') +
-      (isInstrumental(t) ? '' : '<div class="meta">이 딴따의 가수 · ' + esc(t.singer) + '</div>') +
+      (isInstrumental(t) ? '' : '<div class="meta">이 딴다의 가수 · ' + esc(t.singer) + '</div>') +
     '</div>' +
     '<div class="blk">' +
       '<h3>곡</h3>' +
@@ -610,7 +610,7 @@ function renderInfo(item){
 
 /* ================= 곡목록 (악단 단위) ================= */
 
-/** 딴따를 흩어 악단별로 모은다. 혼합 딴따는 곡마다 실제 악단으로 나눈다. */
+/** 딴다를 흩어 악단별로 모은다. 혼합 딴다는 곡마다 실제 악단으로 나눈다. */
 function orchestraGroups(){
   const map = {};
   allTandas().forEach(t => {
